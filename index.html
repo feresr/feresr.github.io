@@ -1,264 +1,518 @@
 <!DOCTYPE HTML>
 <!--
-	Directive by HTML5 UP
-	html5up.net | @n33co
+	Strata by HTML5 UP
+	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>Feresr | GitHub</title>
-		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
-		<meta name="description" content="" />
-		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
-		<script src="js/jquery.min.js"></script>
-		<script src="js/skel.min.js"></script>
-		<script src="js/init.js"></script>
-		<noscript>
-			<link rel="stylesheet" href="css/skel.css" />
-			<link rel="stylesheet" href="css/style.css" />
-			<link rel="stylesheet" href="css/style-wide.css" />
-		</noscript>
-		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+		<title>Strata by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
-	<body>
+	<body class="is-preload">
 
 		<!-- Header -->
-			<div id="header">
-				<span class="logo icon" ><img class="image fit" src="images/pic00.jpg" alt="" /></span>
-				<h1>Hi. I'm Fernando <b>Raviola</b>.</h1>
-				<p>Android and web mobile developer<br />
-				Find out more about myself on <a href="http://html5up.net/license">Twitter</a> and <a href="http://html5up.net/license">LinkedIn</a>.</p>
-			</div>
+			<header id="header">
+				<div class="inner">
+					<a href="#" class="image avatar"><img src="https://pbs.twimg.com/profile_images/1195784400375615489/NBOfympA_400x400.jpg" alt="" /></a>
+					<h1><strong>Fernando Raviola</strong><br />
+					#Kotlin #OpenGL #Android #Java</h1>
+				</div>
+			</header>
 
 		<!-- Main -->
 			<div id="main">
 
-				<header class="major container 75%">
-					<h2>These is some of my works
-					<br />
-					test applications and
-					<br />
-					things I do to keep up</h2>
-					<!--
-					<p>Tellus erat mauris ipsum fermentum<br />
-					etiam vivamus nunc nibh morbi.</p>
-					-->
-				</header>
+				<!-- One -->
+					<section id="one">
+						<header class="major">
+							<h2><strong>I learn by </strong>doing.<br/></h2>
+						</header>
+						<p>I like to keep my project in this page so they don't sink into oblivion. I find myself coming back to earlier work to find inspiration or simply to refresh my memory on how I had structured a specific piece of work. I hope you find something interesting, if you have any quesitons don't hesitate to ask at twitter <a href="https://twitter.com/fernandoraviola">@fernandoraviola</a> or by mail <a href="mailto:fernandoraviola@gmail.com">fernandoraviola@gmail.com</a>.</p>
+					</section>
 
-				<div class="box alt container">
-					<section class="feature left">
-						<a href="https://github.com/feresr/RestAPP-android" class="image icon"><img src="images/pic01.png" alt="" /></a>
-						<div class="content">
-							<h3>RESTAPP</h3>
-							<p>RESTAPP is a platfrom aimed to help those working on restaurants and business of the kind.
-								RESTAPP will make of your customer service something you WANT to deal with.</p>
-						</div>
-					</section>
-					<section class="feature right">
-						<a href="https://github.com/feresr/FidReader" class="image icon"><img src="images/rss.png" alt="" /></a>
-						<div class="content">
-							<h3>FidReader</h3>
-							<p>FidReader was a simple application that I made while working at Globant Disney. It was a simple training to refresh me knowledge of the <b>Android SDK</b> and get me started on the project.</p>
-						</div>
-					</section>
-					<section class="feature left">
-						<a href="https://github.com/feresr/TinyArchitect" class="image icon"><img src="images/pic03.jpg" alt="" /></a>
-						<div class="content">
-							<h3>Tiny Architect</h3>
-							<p>I also make games!. This is a simple platformer that I put together using Adobe's technologies.
-								The <b>Starling Framework</b> and the <b>AIR runtime</b> are some of the techologies that make this game run smooth on Android/iOS and any browser out there.</p>
-						</div>
-					</section>
-					<section class="feature right">
-						<a href="https://github.com/feresr/BlueCare" class="image icon"><img src="images/pic04.png" alt="" /></a>
-						<div class="content">
-							<h3>Blue Care</h3>
-							<p>While working as a freelance developer, I used the <b>Android SDK</b> to create a protype that was capable of detecting interruptions on bluetooth connections. A simple way of preventing to forget your earpiece or bluetooth device while leaving the coffe shop.</p>
-						</div>
-					</section>
-				</div>
+				<!-- Two -->
+					<section id="two">
+						<div class="row">
+							<article class="col-12 col-12-xsmall work-item">
+								<h2>Building a Raytracer in Kotlin</h2>
+							
+								<p>Trying to make the most of the Christmas break, I started reading 
+									<a href="https://twitter.com/Peter_shirley">@Peter_shirley</a>'s book on Ray tracing:
+									<a href="https://raytracing.github.io/books/RayTracingInOneWeekend.html">"Ray Tracing in one weekend"</a>.
+									I had a rough understanding of how raytracers worked, but this book gave a more intuitive grap on the subject. 
+								</p>
+								<br>
+								<span class="image fit">
+									<img src="images/fulls/raytracer.png">
+								</span>
+								<p>I was plasently surprised that images like the one above can be generated without using any graphics library. I am using OpenGL but just to render a texture, I could have instead outputted a image file and then open it with an image viewer (this is in fact what the author does in this book).
+								The code for the project <a href="https://github.com/feresr/raytracing">is available on Github</a>.<br>Also, I shared my progress on twitter, see the thread below:
+								</p>
+								
+								<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Trying to make the most of the Christmas break 🎄🎅 I started reading <a href="https://twitter.com/Peter_shirley?ref_src=twsrc%5Etfw">@Peter_shirley</a> book on Ray tracing &quot;Ray Tracing in one weekend&quot;... looking good so far<a href="https://t.co/HsIRnMLZoG">https://t.co/HsIRnMLZoG</a> <a href="https://t.co/2tfOuSLpLD">pic.twitter.com/2tfOuSLpLD</a></p>&mdash; Fernando Raviola 🧉 (@fernandoraviola) <a href="https://twitter.com/fernandoraviola/status/1210211800492453889?ref_src=twsrc%5Etfw">December 26, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+								
+							</article>
 
-				<!--
-				<div class="box container">
-					<header>
-						<h2>A lot of generic stuff</h2>
-					</header>
-					<section>
-						<header>
-							<h3>Paragraph</h3>
-							<p>This is the subtitle for this particular heading</p>
-						</header>
-						<p>Phasellus nisl nisl, varius id <sup>porttitor sed pellentesque</sup> ac orci. Pellentesque
-						habitant <strong>strong</strong> tristique <b>bold</b> et netus <i>italic</i> malesuada <em>emphasized</em> ac turpis egestas. Morbi
-						leo suscipit ut. Praesent <sub>id turpis vitae</sub> turpis pretium ultricies. Vestibulum sit
-						amet risus elit.</p>
-					</section>
-					<section>
-						<header>
-							<h3>Blockquote</h3>
-						</header>
-						<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget.
-						tempus euismod. Vestibulum ante ipsum primis in faucibus.</blockquote>
-					</section>
-					<section>
-						<header>
-							<h3>Divider</h3>
-						</header>
-						<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra
-						ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
-						facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-						tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-						posuere cubilia.</p>
-						<hr />
-						<p>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra
-						ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel. Praesent nec orci
-						facilisis leo magna. Cras sit amet urna eros, id egestas urna. Quisque aliquam
-						tempus euismod. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-						posuere cubilia.</p>
-					</section>
-					<section>
-						<header>
-							<h3>Unordered List</h3>
-						</header>
-						<ul class="default">
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
+							<article class="col-12 col-12-xsmall work-item">
+								<h2>A multi purpose 16-bit computer (and a programming language + compiler for it)</h2>
+								
+								<p>My curiosity to understand how programming really works and what a computer is actually doing led me into a rabbit hole. It was time to understand how a CPU operates, how does it interact with the RAM, the peripherals, the operating system and utimately how I, as a programmer, can interact with the OS to access the hardware (CPU, IO, ect).</p>
+								<br>
+								<span class="image fit">
+									<img src="images/fulls/computer.jpeg">
+								</span>
+								<p>For this, I found and excelent two-part course on Coursera called <a href="https://www.coursera.org/learn/nand2tetris2/">Build a Modern Computer from First Principles: Nand to Tetris</a>. As you might already guessed, It's called like that because you start off with nothing else but logical NAND gates. The course takes you through building everything else from this fundamental building blocks (registers, RAM, ROM, CPU, ALU, etc).  The ultimate goals is having a fully functional multi porpuse 16-bit computer. The course doesn't stop there though, it also implements a virtual machine and a compiler for a simple, Java-like programming language, and a basic operating system that closes gaps between the high-level language and the underlying hardware platform.</p>
+								<p><br>You can find my code for this project in github <a href="https://github.com/feresr/komputer">here</a>.</p>
+								<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The assembler is ready, and after fixing a subtle bug in the CPU implementation my 16-bit computer is finally running 🎉🖥️, this has been a great learning experience! next steps include implementing a Compiler and OS<br> <a href="https://twitter.com/hashtag/kotlin?src=hash&amp;ref_src=twsrc%5Etfw">#kotlin</a> <a href="https://twitter.com/hashtag/cpu?src=hash&amp;ref_src=twsrc%5Etfw">#cpu</a> <a href="https://twitter.com/hashtag/assembler?src=hash&amp;ref_src=twsrc%5Etfw">#assembler</a> <a href="https://twitter.com/hashtag/compiler?src=hash&amp;ref_src=twsrc%5Etfw">#compiler</a> <a href="https://twitter.com/hashtag/os?src=hash&amp;ref_src=twsrc%5Etfw">#os</a><a href="https://t.co/f4RuX9B2Ll">https://t.co/f4RuX9B2Ll</a> <a href="https://t.co/IPLIvm41Po">pic.twitter.com/IPLIvm41Po</a></p>&mdash; Fernando Raviola 🧉 (@fernandoraviola) <a href="https://twitter.com/fernandoraviola/status/1072912843744440320?ref_src=twsrc%5Etfw">December 12, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+							</article>
+							<article class="col-12 col-12-xsmall work-item">
+								<h2>Walpy (Wallpaper + simple photo editing app)</h2>
+								<p>
+									I believe this is the project I am most proud of to date.
+									Walpy is a Wallpaper changer application I made on my free time, it has over +400.000 downloads on the playstore, 30k daily active users and a 4.7/5.0 user rating average from more than +8k users.
+									<a href="https://play.google.com/store/apps/details?id=com.feresr.walpy&hl=en_US">Download here</a>
+									<br><br>I keep iterating over this app to learn new frameworks, the current version was re-written using Kotlin coroutines, Sqldelight, and Kotlin-multiplatform features.
+									<a href="#">#Kotlin</a> <a href="#">#OpenGL</a> <a href="#">#Graphics</a>
+								</p>
+								<br>
+								<span class="image fit">
+									<img src="images/fulls/walpy.png">
+								</span>
+								<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Let&#39;s talk about hype-driven development... I just released a new version of <a href="https://twitter.com/WalpyApp?ref_src=twsrc%5Etfw">@WalpyApp</a>, a complete rewrite, using Androidx, <a href="https://twitter.com/hashtag/kotlin?src=hash&amp;ref_src=twsrc%5Etfw">#kotlin</a> coroutines, Ktor, <a href="https://twitter.com/hashtag/SqlDelight?src=hash&amp;ref_src=twsrc%5Etfw">#SqlDelight</a> and is a Kotlin multiplatform project... now I just need to learn some iOS🍎 <a href="https://twitter.com/hashtag/AndroidDev?src=hash&amp;ref_src=twsrc%5Etfw">#AndroidDev</a> <a href="https://twitter.com/hashtag/iOSDev?src=hash&amp;ref_src=twsrc%5Etfw">#iOSDev</a> <a href="https://t.co/kmFz4busTc">https://t.co/kmFz4busTc</a></p>&mdash; Fernando Raviola 🧉 (@fernandoraviola) <a href="https://twitter.com/fernandoraviola/status/1158035776808128514?ref_src=twsrc%5Etfw">August 4, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>	
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<h2>Neuralnetworks and deeplearning</h3>
+								<p>I can't recomend this book enough, it's a great introduction to neural networks.</p>
+								
+								<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Just finished reading the book <a href="https://t.co/Y2jDggB4ry">https://t.co/Y2jDggB4ry</a> by <a href="https://twitter.com/michael_nielsen?ref_src=twsrc%5Etfw">@michael_nielsen</a> and this kind of sentence is one of the reasons I liked it so much:<br><br>&quot;..we&#39;ll develop an intuitive picture of what the backpropagation equations mean, and how someone might discover them from scratch.&quot; <a href="https://t.co/6N8I4gR2NE">pic.twitter.com/6N8I4gR2NE</a></p>&mdash; Fernando Raviola 🧉 (@fernandoraviola) <a href="https://twitter.com/fernandoraviola/status/1024790727941742592?ref_src=twsrc%5Etfw">August 1, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+								
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<h2>Asteroids</h3>
+								<p>I remade this classic game in #Kotlin, find the <a href="https://github.com/feresr/asteroids">code here</a>.</p>
+								
+								<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">much better now 😀 <a href="https://t.co/TzV9J2Rx4n">pic.twitter.com/TzV9J2Rx4n</a></p>&mdash; Fernando Raviola 🧉 (@fernandoraviola) <a href="https://twitter.com/fernandoraviola/status/1163515847840817152?ref_src=twsrc%5Etfw">August 19, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+								
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<h2>Toy first person shooter</h3>
+								<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A few days ago I discovered <a href="https://twitter.com/javidx9?ref_src=twsrc%5Etfw">@javidx9</a>&#39;s channel on youtube, can&#39;t recommend it enough, so many good videos!<br>I&#39;ve just implemented the console FPS in <a href="https://twitter.com/hashtag/kotlin?src=hash&amp;ref_src=twsrc%5Etfw">#kotlin</a>. Only not in a console, I used libGdX and OpenGL instead<a href="https://t.co/nu3AnDPaeN">https://t.co/nu3AnDPaeN</a><br><br>Github: <a href="https://t.co/OQTRUleHfq">https://t.co/OQTRUleHfq</a> <a href="https://t.co/9maBFWvtKv">pic.twitter.com/9maBFWvtKv</a></p>&mdash; Fernando Raviola 🧉 (@fernandoraviola) <a href="https://twitter.com/fernandoraviola/status/1162963754243559424?ref_src=twsrc%5Etfw">August 18, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<h2>My notes on learning Kotlin Coroutines [Medium]</h3>
+								<p>I want to shed some light into the difficulties I had learning Kotlin Coroutines while working on my personal apps. I’m writing this first article as a quick go-to reference for myself and anyone else that might find getting started with coroutines a bit unintuitive. Disclaimer: I am learning this as I go so if you notice something wrong with this article please do let me know in the comments. <br><br> Let’s say we want to perform an asynchronous operation using Coroutines. To make things even simpler, we’ll assume this operation doesn’t even return anything back to us. This is simple enough using coroutines... <br><br>[Keep reding on <a href="https://medium.com/@FerRaviola/coroutines-gotchas-494a0e425a24">medium</a>]</p>
+							</article>
+							<article class="col-6 col-12-xsmall work-item">
+								<h2>Nanodegree on Deep Learning</h2>
+								<p>I did not like the Udacity experience that much. Shared some comments on twitter about it.</p>
+								<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I graduated from Udacity&#39;s Deep Learning Nanodegree! But I can&#39;t but feel a bit disappointed with the course material. It wasn&#39;t a very pleasant learning experience and I didn&#39;t feel that sense of thrill/accomplishment after solving the projects... <a href="https://t.co/VvK4QQI0Gq">pic.twitter.com/VvK4QQI0Gq</a></p>&mdash; Fernando Raviola 🧉 (@fernandoraviola) <a href="https://twitter.com/fernandoraviola/status/1046719934976294913?ref_src=twsrc%5Etfw">October 1, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+								
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<h2>A smart dino</h2>
+								<p>You can find the <a href="https://github.com/feresr/imdino">code here</a>. Disclamer, I am not an expert in neural networks and the implamentation might not be 100% correct, but hey I had fun to build it anyways.</p>
+								<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;ve implemented a genetic algorithm <a href="https://twitter.com/hashtag/NeuralNetwork?src=hash&amp;ref_src=twsrc%5Etfw">#NeuralNetwork</a> on <a href="https://twitter.com/googlechrome?ref_src=twsrc%5Etfw">@googlechrome</a> dinosaur game that learns how to play by itself on <a href="https://twitter.com/hashtag/AndroidDev?src=hash&amp;ref_src=twsrc%5Etfw">#AndroidDev</a> 🦕 <a href="https://t.co/xdfjxi5R5d">pic.twitter.com/xdfjxi5R5d</a></p>&mdash; Fernando Raviola 🧉 (@fernandoraviola) <a href="https://twitter.com/fernandoraviola/status/868255933423648768?ref_src=twsrc%5Etfw">May 27, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+							</article>
+
+							<article class="col-6 col-12-xsmall work-item">
+								<h2>Tiny Architect</h2>
+								<p>I build this game with the goal of understanding how physics engines worked. I had a lot fun learnign how tiled based collision works. The game was built using ActionScript 3.0 and Air (Adobe runtime for mobile phones). I believe this is not supported anymore, I can't get the game to run on a modern device but you can give it a try, it's <a href="https://play.google.com/store/apps/details?id=air.com.feresr.TinyArchitect">available on the playstore.</a></p>
+								<br>
+								<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Just published my first Android game ever! An action platformer with a twist <a href="https://twitter.com/hashtag/IndieGame?src=hash&amp;ref_src=twsrc%5Etfw">#IndieGame</a> <a href="https://t.co/GlwjLoXvOW">https://t.co/GlwjLoXvOW</a> <a href="https://t.co/08JrXV5PK0">pic.twitter.com/08JrXV5PK0</a></p>&mdash; Fernando Raviola 🧉 (@fernandoraviola) <a href="https://twitter.com/fernandoraviola/status/734737216266633216?ref_src=twsrc%5Etfw">May 23, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+								
+							</article>
+							
+							
+						</div>
+						<ul class="actions">
+							<li><a href="#" class="button">Full Portfolio</a></li>
 						</ul>
 					</section>
-					<section>
-						<header>
-							<h3>Ordered List</h3>
-						</header>
-						<ol class="default">
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-							<li>Donec consectetur vestibulum dolor et pulvinar. Etiam vel felis enim, at viverra ligula. Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</li>
-						</ol>
-					</section>
-					<section>
-						<header>
-							<h3>Table</h3>
-						</header>
-						<div class="table-wrapper">
-							<table class="default">
-								<thead>
-									<tr>
-										<th>ID</th>
-										<th>Name</th>
-										<th>Description</th>
-										<th>Price</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>45815</td>
-										<td>Something</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>29.99</td>
-									</tr>
-									<tr>
-										<td>24524</td>
-										<td>Nothing</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>19.99</td>
-									</tr>
-									<tr>
-										<td>45815</td>
-										<td>Something</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>29.99</td>
-									</tr>
-									<tr>
-										<td>24524</td>
-										<td>Nothing</td>
-										<td>Ut porttitor sagittis lorem, quis eleifend nisi ornare vel.</td>
-										<td>19.99</td>
-									</tr>
-								</tbody>
-								<tfoot>
-									<tr>
-										<td colspan="3"></td>
-										<td>100.00</td>
-									</tr>
-								</tfoot>
-							</table>
+
+				<!-- Three -->
+					<section id="three">
+						<h2>Get In Touch</h2>
+						<p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
+						<div class="row">
+							<div class="col-8 col-12-small">
+								<form method="post" action="#">
+									<div class="row gtr-uniform gtr-50">
+										<div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+										<div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" /></div>
+										<div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
+									</div>
+								</form>
+								<ul class="actions">
+									<li><input type="submit" value="Send Message" /></li>
+								</ul>
+							</div>
+							<div class="col-4 col-12-small">
+								<ul class="labeled-icons">
+									<li>
+										<h3 class="icon solid fa-home"><span class="label">Address</span></h3>
+										1234 Somewhere Rd.<br />
+										Nashville, TN 00000<br />
+										United States
+									</li>
+									<li>
+										<h3 class="icon solid fa-mobile-alt"><span class="label">Phone</span></h3>
+										000-000-0000
+									</li>
+									<li>
+										<h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
+										<a href="#">hello@untitled.tld</a>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</section>
-					<section>
-						<header>
-							<h3>Form</h3>
-						</header>
-						<form method="post" action="#">
+
+				<!-- Four -->
+				<!--
+					<section id="four">
+						<h2>Elements</h2>
+
+						<section>
+							<h4>Text</h4>
+							<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+							This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+							This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+							<hr />
+							<header>
+								<h4>Heading with a Subtitle</h4>
+								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+							</header>
+							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+							<header>
+								<h5>Heading with a Subtitle</h5>
+								<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+							</header>
+							<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+							<hr />
+							<h2>Heading Level 2</h2>
+							<h3>Heading Level 3</h3>
+							<h4>Heading Level 4</h4>
+							<h5>Heading Level 5</h5>
+							<h6>Heading Level 6</h6>
+							<hr />
+							<h5>Blockquote</h5>
+							<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+							<h5>Preformatted</h5>
+							<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+print 'Iteration ' + i;
+deck.shuffle();
+i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+						</section>
+
+						<section>
+							<h4>Lists</h4>
 							<div class="row">
-								<div class="6u 12u(mobilep)">
-									<label for="name">Name</label>
-									<input class="text" type="text" name="name" id="name" value="" placeholder="John Doe" />
+								<div class="col-6 col-12-xsmall">
+									<h5>Unordered</h5>
+									<ul>
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Sagittis adipiscing lorem eleifend.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+									</ul>
+									<h5>Alternate</h5>
+									<ul class="alt">
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Sagittis adipiscing lorem eleifend.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+									</ul>
 								</div>
-								<div class="6u 12u(mobilep)">
-									<label for="email">Email</label>
-									<input class="text" type="text" name="email" id="email" value="" placeholder="johndoe@domain.tld" />
-								</div>
-							</div>
-							<div class="row">
-								<div class="12u">
-									<label for="subject">Subject</label>
-									<input class="text" type="text" name="subject" id="subject" value="" placeholder="Enter your subject" />
-								</div>
-							</div>
-							<div class="row">
-								<div class="12u">
-									<label for="subject">Message</label>
-									<textarea name="message" id="message" placeholder="Enter your message" rows="6"></textarea>
-								</div>
-							</div>
-							<div class="row">
-								<div class="12u">
-									<ul class="actions">
-										<li><input type="submit" value="Send" /></li>
-										<li><input type="reset" value="Reset" class="alt" /></li>
+								<div class="col-6 col-12-xsmall">
+									<h5>Ordered</h5>
+									<ol>
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Etiam vel felis at lorem sed viverra.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+										<li>Dolor pulvinar etiam magna etiam.</li>
+										<li>Etiam vel felis at lorem sed viverra.</li>
+										<li>Felis enim feugiat dolore viverra.</li>
+									</ol>
+									<h5>Icons</h5>
+									<ul class="icons">
+										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+										<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+										<li><a href="#" class="icon brands fa-tumblr"><span class="label">Tumblr</span></a></li>
 									</ul>
 								</div>
 							</div>
-						</form>
-					</section>
-				</div>
-				-->
+							<h5>Actions</h5>
+							<ul class="actions">
+								<li><a href="#" class="button primary">Default</a></li>
+								<li><a href="#" class="button">Default</a></li>
+							</ul>
+							<ul class="actions small">
+								<li><a href="#" class="button primary small">Small</a></li>
+								<li><a href="#" class="button small">Small</a></li>
+							</ul>
+							<div class="row">
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary">Default</a></li>
+										<li><a href="#" class="button">Default</a></li>
+									</ul>
+								</div>
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary small">Small</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+								</div>
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary fit">Default</a></li>
+										<li><a href="#" class="button fit">Default</a></li>
+									</ul>
+								</div>
+								<div class="col-6 col-12-small">
+									<ul class="actions stacked">
+										<li><a href="#" class="button primary small fit">Small</a></li>
+										<li><a href="#" class="button small fit">Small</a></li>
+									</ul>
+								</div>
+							</div>
+						</section>
 
-				<footer class="major container 75%">
-					<h3>There's more on my <b>GitHub</b> page</h3>
-					<p>I Like to try out different frameworks and functionalities on individual projects for future reference.</p>
-					<ul class="actions">
-						<li><a href="https://github.com/feresr/" class="button">Check them out on GitHub</a></li>
-					</ul>
-				</footer>
+						<section>
+							<h4>Table</h4>
+							<h5>Default</h5>
+							<div class="table-wrapper">
+								<table>
+									<thead>
+										<tr>
+											<th>Name</th>
+											<th>Description</th>
+											<th>Price</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Item One</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Two</td>
+											<td>Vis ac commodo adipiscing arcu aliquet.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Three</td>
+											<td> Morbi faucibus arcu accumsan lorem.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Four</td>
+											<td>Vitae integer tempus condimentum.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Five</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+									</tbody>
+									<tfoot>
+										<tr>
+											<td colspan="2"></td>
+											<td>100.00</td>
+										</tr>
+									</tfoot>
+								</table>
+							</div>
+
+							<h5>Alternate</h5>
+							<div class="table-wrapper">
+								<table class="alt">
+									<thead>
+										<tr>
+											<th>Name</th>
+											<th>Description</th>
+											<th>Price</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>Item One</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Two</td>
+											<td>Vis ac commodo adipiscing arcu aliquet.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Three</td>
+											<td> Morbi faucibus arcu accumsan lorem.</td>
+											<td>29.99</td>
+										</tr>
+										<tr>
+											<td>Item Four</td>
+											<td>Vitae integer tempus condimentum.</td>
+											<td>19.99</td>
+										</tr>
+										<tr>
+											<td>Item Five</td>
+											<td>Ante turpis integer aliquet porttitor.</td>
+											<td>29.99</td>
+										</tr>
+									</tbody>
+									<tfoot>
+										<tr>
+											<td colspan="2"></td>
+											<td>100.00</td>
+										</tr>
+									</tfoot>
+								</table>
+							</div>
+						</section>
+
+						<section>
+							<h4>Buttons</h4>
+							<ul class="actions">
+								<li><a href="#" class="button primary">Primary</a></li>
+								<li><a href="#" class="button">Default</a></li>
+							</ul>
+							<ul class="actions">
+								<li><a href="#" class="button large">Large</a></li>
+								<li><a href="#" class="button">Default</a></li>
+								<li><a href="#" class="button small">Small</a></li>
+							</ul>
+							<ul class="actions fit">
+								<li><a href="#" class="button primary fit">Fit</a></li>
+								<li><a href="#" class="button fit">Fit</a></li>
+							</ul>
+							<ul class="actions fit small">
+								<li><a href="#" class="button primary fit small">Fit + Small</a></li>
+								<li><a href="#" class="button fit small">Fit + Small</a></li>
+							</ul>
+							<ul class="actions">
+								<li><a href="#" class="button primary icon solid fa-download">Icon</a></li>
+								<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+							</ul>
+							<ul class="actions">
+								<li><span class="button primary disabled">Primary</span></li>
+								<li><span class="button disabled">Default</span></li>
+							</ul>
+						</section>
+
+						<section>
+							<h4>Form</h4>
+							<form method="post" action="#">
+								<div class="row gtr-uniform gtr-50">
+									<div class="col-6 col-12-xsmall">
+										<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+									</div>
+									<div class="col-6 col-12-xsmall">
+										<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+									</div>
+									<div class="col-12">
+										<select name="demo-category" id="demo-category">
+											<option value="">- Category -</option>
+											<option value="1">Manufacturing</option>
+											<option value="1">Shipping</option>
+											<option value="1">Administration</option>
+											<option value="1">Human Resources</option>
+										</select>
+									</div>
+									<div class="col-4 col-12-small">
+										<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+										<label for="demo-priority-low">Low Priority</label>
+									</div>
+									<div class="col-4 col-12-small">
+										<input type="radio" id="demo-priority-normal" name="demo-priority">
+										<label for="demo-priority-normal">Normal Priority</label>
+									</div>
+									<div class="col-4 col-12-small">
+										<input type="radio" id="demo-priority-high" name="demo-priority">
+										<label for="demo-priority-high">High Priority</label>
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="checkbox" id="demo-copy" name="demo-copy">
+										<label for="demo-copy">Email me a copy of this message</label>
+									</div>
+									<div class="col-6 col-12-small">
+										<input type="checkbox" id="demo-human" name="demo-human" checked>
+										<label for="demo-human">I am a human and not a robot</label>
+									</div>
+									<div class="col-12">
+										<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+									</div>
+									<div class="col-12">
+										<ul class="actions">
+											<li><input type="submit" value="Send Message" class="primary" /></li>
+											<li><input type="reset" value="Reset" /></li>
+										</ul>
+									</div>
+								</div>
+							</form>
+						</section>
+
+						<section>
+							<h4>Image</h4>
+							<h5>Fit</h5>
+							<div class="box alt">
+								<div class="row gtr-50 gtr-uniform">
+									<div class="col-12"><span class="image fit"><img src="images/fulls/05.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/04.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/05.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/06.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/03.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/02.jpg" alt="" /></span></div>
+									<div class="col-4"><span class="image fit"><img src="images/thumbs/01.jpg" alt="" /></span></div>
+								</div>
+							</div>
+							<h5>Left &amp; Right</h5>
+							<p><span class="image left"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+							<p><span class="image right"><img src="images/avatar.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+						</section>
+
+					</section>
+				-->
 
 			</div>
 
 		<!-- Footer -->
-			<div id="footer">
-				<div class="container 75%">
-
-					<header class="major last">
-						<h2>Questions or comments?</h2>
-					</header>
-
-					<p>Get in touch with me, on...</p>
-
+			<footer id="footer">
+				<div class="inner">
 					<ul class="icons">
-						<li><a href="https://twitter.com/FerRaviola" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="https://www.facebook.com/fernandoraviola" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+						<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+						<li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
-
 					<ul class="copyright">
-						<li>&copy; Feresr. All lefts reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+						<li>&copy; Untitled</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
 					</ul>
-
 				</div>
-			</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
