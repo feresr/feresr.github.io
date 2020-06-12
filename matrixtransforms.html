@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Matrix transforms.js app</title>
+    <style>
+            input {
+                width: 30px;
+                margin:0px;
+                padding:0px;
+             }
+			body { margin: 0;
+			 background:#000f;}
+			canvas { display: block; }
+    </style>
+</head>
+<body>
+<span>
+    <input type="number" id="x1" value="1">
+    <input type="number" id="x2" value="0">
+    <input type="number" id="x3" value="0">
+    <input type="number" id="x4" value="0">
+</span>
+</br>
+<span>
+    <input type="number" id="y1" value="0">
+    <input type="number" id="y2" value="1">
+    <input type="number" id="y3" value="0">
+    <input type="number" id="y4" value="0">
+</span>
+</br>
+<span>
+    <input type="number" id="z1" value="0">
+    <input type="number" id="z2" value="0">
+    <input type="number" id="z3" value="1">
+    <input type="number" id="z4" value="0">
+</span>
+</br>
+<span>
+    <input type="number" id="w1" value="0">
+    <input type="number" id="w2" value="0">
+    <input type="number" id="w3" value="0">
+    <input type="number" id="w4" value="1">
+</span>
+
+
+<script src="js/three.js"></script>
+<script>
+			var scene = new THREE.Scene();
+			var camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 0.1, 100 );
+
+			var renderer = new THREE.WebGLRenderer();
+			renderer.setSize( window.innerWidth, window.innerHeight );
+			document.body.appendChild( renderer.domElement );
+
+			var geometry = new THREE.BoxGeometry();
+			var material = new THREE.MeshNormalMaterial( {  } );
+			var cube = new THREE.Mesh( geometry, material );
+			scene.add( cube );
+
+			camera.position.z = 5;
+
+			function getValue(id) {
+                return document.getElementById(id).value;
+            }
+
+			function animate() {
+				requestAnimationFrame( animate );
+				cube.matrixAutoUpdate = false // tell Three not to update the matrix based on position, rotation, etc.
+				var m = new THREE.Matrix4();
+				cube.matrix.set(
+				       getValue("x1"), getValue("x2"), getValue("x3"), getValue("x4"),
+					   getValue("y1"), getValue("y2"), getValue("y3"), getValue("y4"),
+					   getValue("z1"), getValue("z2"), getValue("z3"), getValue("z4"),
+					   getValue("w1"), getValue("w2"), getValue("w3"), getValue("w4"),
+					   );
+			    time += .1;
+				renderer.render( scene, camera );
+				console.log("ss");
+			}
+        var time = 0;
+		animate();
+</script>
+</body>
+</html>
