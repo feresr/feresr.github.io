@@ -11,7 +11,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
-	<body class="is-preload">
+	<body class="is-preload" onload="loadBackground();" >
+
+		<canvas id="surface" style="position:fixed; z-index: -1">
+			Your browser does not support HTML5
+		</canvas>
+		<script src="js/index.js"></script>
 
 		<!-- Header -->
 			<header id="header">
@@ -471,9 +476,7 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 						<li><a href="https://github.com/feresr" class="icon brands fa-github"><span class="label">Github</span></a></li>
 						<li><a href="mailto:fernandoraviola@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
 					</ul>
-					<ul class="copyright">
-						<li>&copy; feresr</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-					</ul>
+					
 				</div>
 			</footer>
 
