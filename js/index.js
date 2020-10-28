@@ -41,25 +41,42 @@ void main()
     };
     
     
-    const int numCircles = 4;
-    Circle circles[4];
+    const int numCircles = 5;
+    Circle circles[numCircles];
     
-    circles[0] = Circle(vec2(-0.7, 0.0), .34);
-    circles[1] = Circle(vec2(-0.6, -0.35), .35);
-    circles[2] = Circle(vec2(-0.6, 0.20), .40);
-    circles[3] = Circle(vec2(-0.7, 0.35), .30);
+    circles[0] = Circle(vec2(0.05, 0.26), .55);     // fixed
+    
+    circles[1] = Circle(vec2(0.25, -0.68), .37);    // down fixed
+
+    
+    
+    circles[2] = Circle(vec2(0.0, 0.0), .58);
+    circles[3] = Circle(vec2( -0.1, 0.5), .40);
+    circles[4] = Circle(vec2(0.0    , -0.45), .5); // down
+    
+    //circles[3] = Circle(vec2(-0.1, 0.45), .55);
+    
+    
         
     // Normalized pixel coordinates (from 0 to 1)
     
-    vec2 uv = (2.0 * (gl_FragCoord.xy) - iResolution.xy)/iResolution.x;
+    vec2 uv = (2.0 * (gl_FragCoord.xy) - iResolution.xy)/iResolution.y;
 
     float f = 0.0;
     float threshold = 0.9;
-    for(int i=0; i< numCircles; i++) {
+    for(int i=0; i < numCircles; i++) {
     	Circle circle = circles[i];
         
-        circle.pos.x += .05 * cos(float(i + 1) * iTime/2.0);// * cos(iTime);
-        circle.pos.y += .05 * sin(float(i + 1) * iTime/2.0); 
+        float dx = .10;
+        float dy = .12;
+        if (i < 2) {
+            dx = .02;
+            dy = .07;
+        }
+
+        circle.pos.x += dx * cos(float(i + 1) * iTime/2.0);// * cos(iTime);
+        circle.pos.y += dy * sin(float(i + 1) * iTime/2.0); 
+        
         
         float dist = length(uv - circle.pos);
     	f += smoothstep(circle.radius, circle.radius - threshold, dist);
@@ -69,10 +86,10 @@ void main()
     // Time varying pixel color
     
     if (f >= .05) {
-        vec3 col = 0.5 + 0.5*cos(iTime+uv.xyx+vec3(0,2,4));
-    	gl_FragColor = vec4(col * .8, 1.0);
+        vec3 col = 0.5 + 0.5*cos(iTime+uv.xyx+vec3(0,2,4)) * .9;
+    	gl_FragColor = vec4(.2 + col.x * .3, col.y, col.z + col.x, 10);
     } else {
-    	gl_FragColor = vec4(0);   
+    	gl_FragColor = vec4(0,0,0,0);   
     }
 }
 `
@@ -89,7 +106,7 @@ var loadBackground = function () {
     window.addEventListener('resize', resizeCanvas, false);
 
     function resizeCanvas() {
-            canvas.width = window.innerWidth;
+            canvas.width = window.innerWidth / 3;
             canvas.height = window.innerHeight;
             
             //
@@ -106,8 +123,6 @@ var loadBackground = function () {
         
             
             gl.clearColor(0.75, 0.85, 0.1, 1.0);
-            
-
     }
 
     resizeCanvas();
@@ -189,7 +204,8 @@ var loadBackground = function () {
 
         //TIME
 
-        now *= 0.0004;
+        now *= 0.0002;
+        //now *= 0.001;
     
         var timeLocation = gl.getUniformLocation(program, "iTime");
         gl.uniform1f(timeLocation, now);
