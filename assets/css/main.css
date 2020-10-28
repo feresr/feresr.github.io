@@ -3064,9 +3064,13 @@ input, select, textarea {
 				width: 100%;
 				display: block;
 			}
-
+			#header strong, #header b {
+				color: #000000;
+			}
 				#header h1 {
 					font-size: 1.75em;
+					
+					color: rgba(0, 0, 0, 0.5);
 				}
 
 					#header h1 br {
