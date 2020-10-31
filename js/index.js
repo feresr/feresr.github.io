@@ -56,10 +56,16 @@ void main()
 	}
    
     if (f >= .05) {
-        vec3 col = 0.5 + 0.5*cos(iTime+uv.xyx+vec3(0,2,4)) * 0.6;
-    	gl_FragColor = vec4(.2 + col.x * .3, col.y, col.z + col.x, .9);
+        //vec3 col = 0.5 + 0.5*cos(iTime+uv.xyx+vec3(0,2,4)) * 0.6;
+        gl_FragColor = vec4(.9264, .9382, .9578, 1.0);    //white
+        //gl_FragColor = vec4(229.0/255.0, 233.0/255.0, 240.0/255.0, 1.0);    //dark white
+        //gl_FragColor = vec4(0.1803, 0.2039, 0.2509, 1.0); //black
+        //gl_FragColor = vec4(76.0/255.0, 86.0/255.0, 106.0/255.0, 1.0); //black light
+        //gl_FragColor = vec4(94.0/255.0, 129.0/255.0,171.0/255.0, 1.0); //cyan
+        
     } else {
         gl_FragColor = vec4(0,0,0,0);   
+        //gl_FragColor = vec4(.9264, .9382, .9578, 1.0);
     }
 }
 `
