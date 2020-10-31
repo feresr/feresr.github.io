@@ -99,8 +99,8 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #2E3440;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
-		font-size: 16pt;
+		font-family: "Rubik", Helvetica, sans-serif;
+		font-size: 14pt;
 		font-weight: 400;
 		line-height: 1.75em;
 	}
@@ -123,7 +123,8 @@ input, select, textarea {
 
 	strong, b {
 		color: #4C566A;
-		font-weight: 400;
+		font-weight: 600;
+		font-size: 1.0em;
 	}
 
 	em, i {
