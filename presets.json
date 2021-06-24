@@ -1,0 +1,143 @@
+{
+    "home": {
+       "packOfTheDay": 212,
+       "featured": [
+          1,
+          4,
+          5,
+          9,
+          11,
+          13,
+          14,
+          91
+       ]
+    },
+    "packs": [
+       {
+          "id": 1,
+          "name": "Pastel colors",
+          "presets": [
+             {
+                "name": "PNK1",
+                "filters": [
+                   {
+                      "HUE": [
+                         0.2
+                      ]
+                   },
+                   {
+                      "CONTRAST": [
+                         0.2
+                      ]
+                   },
+                   {
+                      "BLUR": [
+                         0.2
+                      ]
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "id": 2,
+          "name": "Saturated vibe",
+          "presets": [
+             {
+                "name": "DBLE",
+                "filters": [
+                   {
+                      "HUE": [
+                         0.2
+                      ]
+                   },
+                   {
+                      "CONTRAST": [
+                         0.2
+                      ]
+                   },
+                   {
+                      "BLUR": [
+                         0.2
+                      ]
+                   }
+                ]
+             },
+             {
+                "name": "RM1",
+                "filters": [
+                   {
+                      "HUE": [
+                         0.2
+                      ]
+                   },
+                   {
+                      "CONTRAST": [
+                         0.2
+                      ]
+                   }
+                ]
+             },
+             {
+                "name": "XLO",
+                "filters": [
+                   {
+                      "HUE": [
+                         0.25,
+                         0.1,
+                         0
+                      ]
+                   },
+                   {
+                      "FRAME": [
+                         0.25
+                      ]
+                   }
+                ]
+             }
+          ]
+       },
+       {
+          "id": 3,
+          "name": "Sunset goodbyes",
+          "presets": [
+             {
+                "name": "ORANGE",
+                "filters": [
+                   {
+                      "HUE": [
+                         0.2
+                      ]
+                   }
+                ]
+             },
+             {
+                "name": "SUN32",
+                "filters": [
+                   {
+                      "HUE": [
+                         0.2
+                      ]
+                   },
+                   {
+                      "CONTRAST": [
+                         0.2
+                      ]
+                   },
+                   {
+                      "DEHAZE": [
+                         1,
+                         0
+                      ]
+                   },
+                   {
+                      "BLUR": [
+                         0.2
+                      ]
+                   }
+                ]
+             }
+          ]
+       }
+    ]
+ }
