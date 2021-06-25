@@ -1,143 +1,128 @@
 {
     "home": {
-       "packOfTheDay": 212,
-       "featured": [
-          1,
-          4,
-          5,
-          9,
-          11,
-          13,
-          14,
-          91
-       ]
+      "packOfTheDay": 1,
+      "featured": [
+        1,
+        2,
+        3,
+        1,
+        3,
+        2
+      ]
     },
     "packs": [
-       {
-          "id": 1,
-          "name": "Pastel colors",
-          "presets": [
-             {
-                "name": "PNK1",
-                "filters": [
-                   {
-                      "HUE": [
-                         0.2
-                      ]
-                   },
-                   {
-                      "CONTRAST": [
-                         0.2
-                      ]
-                   },
-                   {
-                      "BLUR": [
-                         0.2
-                      ]
-                   }
-                ]
-             }
-          ]
-       },
-       {
-          "id": 2,
-          "name": "Saturated vibe",
-          "presets": [
-             {
-                "name": "DBLE",
-                "filters": [
-                   {
-                      "HUE": [
-                         0.2
-                      ]
-                   },
-                   {
-                      "CONTRAST": [
-                         0.2
-                      ]
-                   },
-                   {
-                      "BLUR": [
-                         0.2
-                      ]
-                   }
-                ]
-             },
-             {
-                "name": "RM1",
-                "filters": [
-                   {
-                      "HUE": [
-                         0.2
-                      ]
-                   },
-                   {
-                      "CONTRAST": [
-                         0.2
-                      ]
-                   }
-                ]
-             },
-             {
-                "name": "XLO",
-                "filters": [
-                   {
-                      "HUE": [
-                         0.25,
-                         0.1,
-                         0
-                      ]
-                   },
-                   {
-                      "FRAME": [
-                         0.25
-                      ]
-                   }
-                ]
-             }
-          ]
-       },
-       {
-          "id": 3,
-          "name": "Sunset goodbyes",
-          "presets": [
-             {
-                "name": "ORANGE",
-                "filters": [
-                   {
-                      "HUE": [
-                         0.2
-                      ]
-                   }
-                ]
-             },
-             {
-                "name": "SUN32",
-                "filters": [
-                   {
-                      "HUE": [
-                         0.2
-                      ]
-                   },
-                   {
-                      "CONTRAST": [
-                         0.2
-                      ]
-                   },
-                   {
-                      "DEHAZE": [
-                         1,
-                         0
-                      ]
-                   },
-                   {
-                      "BLUR": [
-                         0.2
-                      ]
-                   }
-                ]
-             }
-          ]
-       }
+      {
+        "id": 1,
+        "name": "Pastel colors",
+        "photo": "https://images.unsplash.com/photo-1534270804882-6b5048b1c1fc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&fm=webp&w=400&fit=max",
+        "presets": [
+          {
+            "name": "PNK0",
+            "filters": {
+              "HUE": [
+                0.4
+              ],
+              "CONTRAST": [
+                0.2
+              ],
+              "BLUR": [
+                0.0
+              ]
+            }
+          },
+          {
+            "name": "PNK1",
+            "filters": {
+              "HUE": [
+                1.2
+              ],
+              "CONTRAST": [
+                0.9
+              ],
+              "GRAIN": [
+                0.2
+              ]
+            }
+          },
+          {
+            "name": "PNK2",
+            "filters": {
+              "HUE": [
+                -3.2
+              ],
+              "VIBRANCE": [
+                0.9
+              ]
+            }
+          },
+          {
+            "name": "PNK3",
+            "filters": {
+              "HUE": [
+                0.2
+              ],
+              "CONTRAST": [
+                0.40
+              ],
+              "BLUR": [
+                0.0
+              ]
+            }
+          },
+          {
+            "name": "PNK4",
+            "filters": {
+              "HUE": [
+                1.9
+              ],
+              "EXPOSURE": [
+                0.9
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Pastel colors",
+        "photo": "https://images.unsplash.com/photo-1563589173312-476d8c36b242?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&fm=webp&w=400&fit=max",
+        "presets": [
+          {
+            "name": "PNK1",
+            "filters": {
+              "HUE": [
+                1.25
+              ],
+              "CONTRAST": [
+                0.8
+              ],
+              "BLUR": [
+                0.0
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Pastel colors",
+        "photo": "https://images.unsplash.com/photo-1517685633466-403d6955aeab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&&fm=webp&w=400&fit=max",
+        "presets": [
+          {
+            "name": "PNK1",
+            "filters": {
+              "HUE": [
+                0.9
+              ],
+              "CONTRAST": [
+                0.1
+              ],
+              "BLUR": [
+                0.0
+              ]
+            }
+          }
+        ]
+      }
     ]
- }
+  }
