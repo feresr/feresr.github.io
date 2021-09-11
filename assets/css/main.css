@@ -1,6 +1,11 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400italic");
 
+@font-face {
+	font-family: gilroy;
+	src: url(../fonts/gilroy_extrabold.otf);
+  }
+
 /*
 	Strata by HTML5 UP
 	html5up.net | @ajlkn
@@ -105,6 +110,12 @@ input, select, textarea {
 		line-height: 1.75em;
 	}
 
+
+	h1, h2, strong {
+		font-family: gilroy;
+	}
+  
+
 	a {
 		-moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
@@ -158,7 +169,7 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1.25em;
+		font-size: 1.5em;
 		line-height: 1.5em;
 	}
 
@@ -1778,7 +1789,7 @@ input, select, textarea {
 	}
 
 	header h3 + p {
-		font-size: 1.1em;
+		font-size: 1.25em;
 		margin-top: -0.8em;
 		line-height: 1.5em;
 	}
@@ -2555,16 +2566,20 @@ input, select, textarea {
 /* Work Item */
 
 	.work-item {
-		margin: 0 0 2em 0;
+		margin: 0.0em 0 4.0em 0;
 	}
 
 		.work-item .image {
 			margin: 0 0 1.5em 0;
 		}
 
+		.work-item h2 {
+			margin: 0.0em 0.0em 1.0em 0;
+		}
+
 		.work-item h3 {
-			font-size: 1em;
-			margin: 0 0 0.5em 0;
+			font-size: 1.3em;
+			margin: 0 0 4.9em 0;
 		}
 
 		.work-item p {
@@ -3136,7 +3151,7 @@ input, select, textarea {
 			}
 
 			h3 {
-				font-size: 1em;
+				font-size: 1.2em;
 			}
 
 		/* Section/Article */
