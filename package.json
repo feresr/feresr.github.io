@@ -1,0 +1,29 @@
+{
+  "name": "feresr.github.io",
+  "version": "1.0.0",
+  "description": "personal website",
+  "main": "index.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feresr/feresr.github.io.git"
+  },
+  "keywords": [
+    "personal",
+    "website",
+    "portfolio"
+  ],
+  "author": "feresr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/feresr/feresr.github.io/issues"
+  },
+  "homepage": "https://github.com/feresr/feresr.github.io#readme"
+}
