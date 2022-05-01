@@ -1,253 +1,267 @@
 {
-	"home": {
-		"packOfTheDay": 2,
-		"featured": [
-			5,
-			2,
-			6,
-			7,
-			3,
-			4
-		]
-	},
-	"packs": [{
-			"id": 7,
-			"name": "B&W",
-			"photo": "https://images.unsplash.com/photo-1640510519286-69fcfc58ac98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=564&q=80",
-			"description": "Ideal for portraits and photos with lots of skintones",
-			"color": "#e5e5e5",
-			"presets": [{
-					"name": "B&W01",
-					"filters": {
-						"EXPOSURE": [0.304878],
-						"CONTRAST": [0.8087873],
-						"HIGHLIGHT_SHADOWS": [2.0, 0.34146342],
-						"TEMPERATURE": [0.2483187, 0.6539634],
-						"SATURATION": [0.34134692],
-						"VIBRANCE": [1.0],
-						"SHARPEN": [0.2667683],
-						"HSL": [0.0, -1.0, -0.7239709, -0.084745765, -1.0, 1.0, 0.2978208, -1.0, 0.45039284, 0.0, -1.0, 0.70702183, -0.11622274, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0],
-						"VIGNETTE": [0.3567073]
-					}
-				}, {
-					"name": "B&W02",
-					"filters": {
-						"EXPOSURE": [0.35],
-						"CONTRAST": [0.6570122],
-						"HIGHLIGHT_SHADOWS": [2.0, 0.0],
-						"VIBRANCE": [0.64448357],
-						"SHARPEN": [0.3765244],
-						"HSL": [0.0, -1.0, -1.0, -0.12590802, -1.0, -1.0, 0.2978208, -0.8087168, -0.33171913, 0.0, -1.0, 0.56644344, -0.11622274, -1.0, 0.004842639, 0.0, -1.0, 0.0, 0.0, -1.0, -0.021791726, 0.0, -1.0, 0.0],
-						"VIGNETTE": [0.9878049]
-					}
-				},
-				{
-					"name": "B&W03",
-					"filters": {
-						"TEMPERATURE": [0.042518012, 0.9988646],
-						"SATURATION": [0.0],
-						"VIBRANCE": [0.02057927],
-						"SHARPEN": [1.0],
-						"HSL": [0.17675543, 0.0, 0.0, 0.0, -0.09806296, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
-					}
-				}
-			]
-		},
-		{
-			"id": 6,
-			"name": "Close ups",
-			"photo": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
-			"description": "Ideal for portraits and photos with lots of skintones",
-			"color": "#4ECDC4",
-			"presets": [{
-					"name": "CLUP0",
-					"filters": {
-						"CONTRAST": [0.55],
-						"SATURATION": [0.67835367],
-						"HIGHLIGHT_SHADOWS": [1.1676829, 0.0],
-						"VIBRANCE": [0.51829267],
-						"TEMPERATURE": [0.63262194, 0.46646342],
-						"HSL": [1.0, 0.030266285, 0.0, -0.0411, -0.1380, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, -0.2881, 0.2258, 0.0, -0.2242, 0.5108, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0],
-						"SHARPEN": [0.09319987],
-						"VIGNETTE": [0.33536586]
-					}
-				},
-				{
-					"name": "CLUP1",
-					"filters": {
-						"EXPOSURE": [-0.18292686],
-						"CONTRAST": [1.0],
-						"SATURATION": [0.67835367],
-						"HIGHLIGHT_SHADOWS": [0.0, 0.0],
-						"VIBRANCE": [0.51829267],
-						"TEMPERATURE": [0.63262194, 0.46646342],
-						"HSL": [1.0, 0.030266285, 0.0, -0.1476998, 0.7, -0.4056718, 0.0, -0.9757869, 0.0, 0.0, -1.0, 0.0, -0.28813556, 0.22585964, 0.0, -0.22423851, 0.51089585, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0],
-						"SHARPEN": [0.09319987]
-					}
-				}
-			]
-		},
-		{
-			"id": 5,
-			"name": "A day in Paris",
-			"photo": "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
-			"description": "Ideal for buildings and outdoor city shots",
-			"color": "#e8c1c5",
-			"presets": [{
-					"name": "ADIP0",
-					"filters": {
-						"CONTRAST": [0.55],
-						"SATURATION": [0.67835367],
-						"HIGHLIGHT_SHADOWS": [1.1676829, 0.0],
-						"VIBRANCE": [0.51829267],
-						"TEMPERATURE": [0.63262194, 0.46646342],
-						"HSL": [1.0, 0.030266285, 0.0, -0.0411, -0.1380, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, -0.2881, 0.2258, 0.0, -0.2242, 0.5108, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0],
-						"SHARPEN": [0.09319987],
-						"VIGNETTE": [0.33536586]
-					}
-				},
-				{
-					"name": "ADIP1",
-					"filters": {
-						"HIGHLIGHT_SHADOWS": [0.95, 0.0],
-						"HSL": [0.041162252, -0.012106538, 0.0, -0.26392248, -0.05326879, 1.0, 0.0, -0.016949177, 0.0, 0.0, -1.0, 0.0, -1.0, -1.0, -0.9939903, -0.5084746, -1.0, -1.0, 0.0, -1.0, 0.0, 0.0, 0.45762718, 0.0]
-					}
-				},
-				{
-					"name": "ADIP2",
-					"filters": {
-						"EXPOSURE": [-0.18292686],
-						"CONTRAST": [1.0],
-						"SATURATION": [0.67835367],
-						"HIGHLIGHT_SHADOWS": [0.0, 0.0],
-						"VIBRANCE": [0.51829267],
-						"TEMPERATURE": [0.63262194, 0.46646342],
-						"HSL": [1.0, 0.030266285, 0.0, -0.1476998, 0.7, -0.4056718, 0.0, -0.9757869, 0.0, 0.0, -1.0, 0.0, -0.28813556, 0.22585964, 0.0, -0.22423851, 0.51089585, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0],
-						"SHARPEN": [0.09319987]
-					}
-				},
-				{
-					"name": "ADIP3",
-					"filters": {
-						"EXPOSURE": [0.054877996],
-						"CONTRAST": [0.38109756],
-						"SATURATION": [0.5960366],
-						"HIGHLIGHT_SHADOWS": [2.0, 0.0],
-						"VIBRANCE": [0.028201219],
-						"TEMPERATURE": [0.75838417, 0.621189],
-						"HSL": [0.0, -1.0, 0.0, -0.087167054, 1.0, 0.0, -1.0, 1.0, 0.14527845, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0],
-						"VIGNETTE": [0.39634147]
-					}
-				},
-				{
-					"name": "ADIP4",
-					"filters": {
-						"EXPOSURE": [-0.1696792],
-						"CONTRAST": [0.6387195],
-						"HIGHLIGHT_SHADOWS": [1.9969512, 0.0],
-						"TEMPERATURE": [0.7865854, 0.558689],
-						"SATURATION": [0.0],
-						"VIBRANCE": [0.9397125],
-						"GRAIN": [0.2804878],
-						"HSL": [0.38498786, -1.0, 0.0, -0.031476974, -0.15717089, -1.0, -1.0, 0.1791768, 0.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0]
-					}
-				}
-			]
-		},
-		{
-			"id": 2,
-			"name": "Filmic",
-			"color": "#78C0E0",
-			"photo": "https://images.unsplash.com/photo-1582865479892-cc19ea44a9fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=100",
-			"description": "Perfect for portraits and close ups",
-			"presets": [{
-					"name": "RML0",
-					"filters": {
+  "home": {
+    "packOfTheDay": 2,
+    "featured": [5, 2, 6, 7, 3, 4]
+  },
+  "packs": [
+    {
+      "id": 7,
+      "name": "B&W",
+      "photo": "https://images.unsplash.com/photo-1640510519286-69fcfc58ac98?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=564&q=80",
+      "description": "Ideal for portraits and photos with lots of skintones",
+      "color": "#2f394d",
+      "presets": [
+        {
+          "name": "B&W01",
+          "filters": {
+            "EXPOSURE": [0.304878],
+            "CONTRAST": [0.8087873],
+            "HIGHLIGHT_SHADOWS": [1.0, 0.34146342],
+            "TEMPERATURE": [0.2483187, 0.6539634],
+            "SATURATION": [0.34134692],
+            "VIBRANCE": [1.0],
+            "SHARPEN": [0.2667683],
+            "HSL": [
+              0.0, -1.0, -0.7239709, -0.084745765, -1.0, 1.0, 0.2978208, -1.0,
+              0.45039284, 0.0, -1.0, 0.70702183, -0.11622274, -1.0, 0.0, 0.0,
+              -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0
+            ],
+            "VIGNETTE": [0.3567073]
+          }
+        },
+        {
+          "name": "B&W02",
+          "filters": {
+            "EXPOSURE": [0.35],
+            "CONTRAST": [0.6570122],
+            "HIGHLIGHT_SHADOWS": [1.0, 0.0],
+            "VIBRANCE": [0.64448357],
+            "SHARPEN": [0.3765244],
+            "HSL": [
+              0.0, -1.0, -1.0, -0.12590802, -1.0, -1.0, 0.2978208, -0.8087168,
+              -0.33171913, 0.0, -1.0, 0.56644344, -0.11622274, -1.0,
+              0.004842639, 0.0, -1.0, 0.0, 0.0, -1.0, -0.021791726, 0.0, -1.0,
+              0.0
+            ],
+            "VIGNETTE": [0.9878049]
+          }
+        },
+        {
+          "name": "B&W03",
+          "filters": {
+            "TEMPERATURE": [0.042518012, 0.9988646],
+            "SATURATION": [0.0],
+            "VIBRANCE": [0.02057927],
+            "SHARPEN": [1.0],
+            "HSL": [
+              0.17675543, 0.0, 0.0, 0.0, -0.09806296, 0.0, 0.0, 0.0, 0.0, 0.0,
+              0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0,
+              0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Close ups",
+      "photo": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80",
+      "description": "Ideal for portraits and photos with lots of skintones",
+      "color": "#56666b",
+      "presets": [
+        {
+          "name": "CLUP0",
+          "filters": {
+            "CONTRAST": [0.55],
+            "SATURATION": [0.67835367],
+            "HIGHLIGHT_SHADOWS": [1.0, 0.0],
+            "VIBRANCE": [0.51829267],
+            "TEMPERATURE": [0.63262194, 0.46646342],
+            "HSL": [
+              1.0, 0.030266285, 0.0, -0.0411, -0.138, 0.0, 0.0, -1.0, 0.0, 0.0,
+              -1.0, 0.0, -0.2881, 0.2258, 0.0, -0.2242, 0.5108, 0.0, 0.0, -1.0,
+              0.0, 0.0, -1.0, 0.0
+            ],
+            "SHARPEN": [0.09319987],
+            "VIGNETTE": [0.33536586]
+          }
+        },
+        {
+          "name": "CLUP1",
+          "filters": {
+            "EXPOSURE": [-0.18292686],
+            "CONTRAST": [1.0],
+            "SATURATION": [0.67835367],
+            "HIGHLIGHT_SHADOWS": [0.0, 0.0],
+            "VIBRANCE": [0.51829267],
+            "TEMPERATURE": [0.63262194, 0.46646342],
+            "HSL": [
+              1.0, 0.030266285, 0.0, -0.1476998, 0.7, -0.4056718, 0.0,
+              -0.9757869, 0.0, 0.0, -1.0, 0.0, -0.28813556, 0.22585964, 0.0,
+              -0.22423851, 0.51089585, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0
+            ],
+            "SHARPEN": [0.09319987]
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "A day in Paris",
+      "photo": "https://images.unsplash.com/photo-1511739001486-6bfe10ce785f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=80",
+      "description": "Ideal for buildings and outdoor city shots",
+      "color": "#e8c1c5",
+      "presets": [
+        {
+          "name": "ADIP0",
+          "filters": {
+            "CONTRAST": [0.55],
+            "SATURATION": [0.67835367],
+            "HIGHLIGHT_SHADOWS": [1.0, 0.0],
+            "VIBRANCE": [0.51829267],
+            "TEMPERATURE": [0.63262194, 0.46646342],
+            "HSL": [
+              1.0, 0.030266285, 0.0, -0.0411, -0.138, 0.0, 0.0, -1.0, 0.0, 0.0,
+              -1.0, 0.0, -0.2881, 0.2258, 0.0, -0.2242, 0.5108, 0.0, 0.0, -1.0,
+              0.0, 0.0, -1.0, 0.0
+            ],
+            "SHARPEN": [0.09319987],
+            "VIGNETTE": [0.33536586]
+          }
+        },
+        {
+          "name": "ADIP1",
+          "filters": {
+            "HIGHLIGHT_SHADOWS": [0.95, 0.0],
+            "HSL": [
+              0.041162252, -0.012106538, 0.0, -0.26392248, -0.05326879, 1.0,
+              0.0, -0.016949177, 0.0, 0.0, -1.0, 0.0, -1.0, -1.0, -0.9939903,
+              -0.5084746, -1.0, -1.0, 0.0, -1.0, 0.0, 0.0, 0.45762718, 0.0
+            ]
+          }
+        },
+        {
+          "name": "ADIP2",
+          "filters": {
+            "EXPOSURE": [-0.18292686],
+            "CONTRAST": [1.0],
+            "SATURATION": [0.67835367],
+            "HIGHLIGHT_SHADOWS": [0.0, 0.0],
+            "VIBRANCE": [0.51829267],
+            "TEMPERATURE": [0.63262194, 0.46646342],
+            "HSL": [
+              1.0, 0.030266285, 0.0, -0.1476998, 0.7, -0.4056718, 0.0,
+              -0.9757869, 0.0, 0.0, -1.0, 0.0, -0.28813556, 0.22585964, 0.0,
+              -0.22423851, 0.51089585, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0
+            ],
+            "SHARPEN": [0.09319987]
+          }
+        },
+        {
+          "name": "ADIP3",
+          "filters": {
+            "EXPOSURE": [0.054877996],
+            "CONTRAST": [0.38109756],
+            "SATURATION": [0.5960366],
+            "HIGHLIGHT_SHADOWS": [1.0, 0.0],
+            "VIBRANCE": [0.028201219],
+            "TEMPERATURE": [0.75838417, 0.621189],
+            "HSL": [
+              0.0, -1.0, 0.0, -0.087167054, 1.0, 0.0, -1.0, 1.0, 0.14527845,
+              0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0,
+              0.0, -1.0, 0.0
+            ],
+            "VIGNETTE": [0.39634147]
+          }
+        },
+        {
+          "name": "ADIP4",
+          "filters": {
+            "EXPOSURE": [-0.1696792],
+            "CONTRAST": [0.6387195],
+            "HIGHLIGHT_SHADOWS": [1.0, 0.0],
+            "TEMPERATURE": [0.7865854, 0.558689],
+            "SATURATION": [0.0],
+            "VIBRANCE": [0.9397125],
+            "GRAIN": [0.2804878],
+            "HSL": [
+              0.38498786, -1.0, 0.0, -0.031476974, -0.15717089, -1.0, -1.0,
+              0.1791768, 0.0, 0.0, -1.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0,
+              0.0, 0.0, 0.0, 0.0, -1.0, 0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Filmic",
+      "color": "#db324d",
+      "photo": "https://images.unsplash.com/photo-1582865479892-cc19ea44a9fa?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=100",
+      "description": "Perfect for portraits and close ups",
+      "presets": [
+        {
+          "name": "FLMC0",
+          "filters": {
             "EXPOSURE": [-0.1320548],
             "CONTRAST": [0.856037],
-            "HIGHLIGHT_SHADOWS": [2.0, 0.0],
+            "HIGHLIGHT_SHADOWS": [1.0, 0.0],
             "SATURATION": [0.3482313],
             "VIBRANCE": [0.6509146],
             "SHARPEN": [0.1882622],
-            "HSL": [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0, 0.74939466, 0.0, 0.0, 0.6561743, 0.0, 0.0, 0.79297817, 0.0, 0.0, 0.0, 0.0],
+            "HSL": [
+              0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0,
+              0.74939466, 0.0, 0.0, 0.6561743, 0.0, 0.0, 0.79297817, 0.0, 0.0,
+              0.0, 0.0
+            ],
             "VIGNETTE": [0.31859756]
-					}
-				},
-				{
-					"name": "RML1",
-					"filters": {
-						"VIGNETTE": [
-							0.75
-						],
-						"EXPOSURE": [
-							0.0
-						],
-						"CONTRAST": [
-							1.0
-						],
-						"HSL": [
-							0.0,
-							0.0,
-							0.0,
-							0.0,
-							0.0,
-							0.0,
-							0.0,
-							-1.0,
-							0.0,
-							0.0,
-							-1.0,
-							0.0,
-							0.0,
-							0.0,
-							0.0,
-							0.0,
-							0.0,
-							0.0,
-							0.0,
-							0.0,
-							0.0,
-							0.0,
-							0.0,
-							0.0
-						]
-					}
-				}
-			]
-		},
-		{
-			"id": 3,
-			"name": "Day in a box",
-			"photo": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=100",
-			"description": "For photos with lots of yellows and greens",
-			"presets": [{
-				"name": "PNK1",
-				"filters": {
-					"HUE": [
-						0.9
-					],
-					"CONTRAST": [
-						0.1
-					]
-				}
-			}]
-		},
-		{
-			"id": 4,
-			"name": "French vibes",
-			"photo": "https://images.unsplash.com/photo-1517685633466-403d6955aeab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&&fm=webp&w=300&fit=max",
-			"description": "Oh lala, get the paris mood right with this presets.",
-			"presets": [{
-				"name": "FRCH",
-				"filters": {
-					"HUE": [
-						0.1
-					],
-					"CONTRAST": [
-						0.9
-					]
-				}
-			}]
-		}
-	]
+          }
+        },
+        {
+          "name": "FLMC1",
+          "filters": {
+            "VIGNETTE": [0.75],
+            "EXPOSURE": [0.0],
+            "CONTRAST": [1.0],
+            "HSL": [
+              0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, -1.0, 0.0, 0.0, -1.0, 0.0, 0.0,
+              0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Day in a box",
+      "color": "#f4ac32",
+      "photo": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=400&q=100",
+      "description": "For photos with lots of yellows and greens",
+      "presets": [
+        {
+          "name": "PNK1",
+          "filters": {
+            "HUE": [0.9],
+            "CONTRAST": [0.1]
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "French vibes",
+      "color": "#476a6f",
+      "photo": "https://images.unsplash.com/photo-1517685633466-403d6955aeab?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&&fm=webp&w=300&fit=max",
+      "description": "Oh lala, get the paris mood right with this presets.",
+      "presets": [
+        {
+          "name": "FRCH",
+          "filters": {
+            "HUE": [0.1],
+            "CONTRAST": [0.9]
+          }
+        }
+      ]
+    }
+  ]
 }
