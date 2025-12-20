@@ -1,278 +1,455 @@
 <!DOCTYPE HTML>
 <html>
 
-	<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-	<head>
-		<title>Fernando Raviola</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	
-		<!-- Global site tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-1270M9V6P3"></script>
-		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-			gtag('config', 'G-1270M9V6P3');
-		</script>
-	</head>
-	<body class="is-preload" onload="loadBackground();" >
+<head>
+	<title>Fernando Raviola</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
 
-		<canvas id="surface" style="position:fixed; z-index: -1">
-			Your browser does not support HTML5
-		</canvas>
-		<script src="js/index.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-1270M9V6P3"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'G-1270M9V6P3');
+	</script>
+</head>
 
-		<!-- Header -->
-			<header id="header">
-				<div class="inner">
-					<a href="#" class="image avatar"><img src="images/avatar.png" alt="" /></a>
-					<h1><strong>Fernando Raviola</strong><br /></h1>
-					<h4>#Kotlin #OpenGL #Android #Rust </h4>
-				</div>
+<body class="is-preload" onload="loadBackground();">
+
+	<canvas id="surface" style="position:fixed; z-index: -1">
+		Your browser does not support HTML5
+	</canvas>
+	<script src="js/index.js"></script>
+
+	<!-- Header -->
+	<header id="header">
+		<div class="inner">
+			<a href="#" class="image avatar"><img src="images/avatar.png" alt="" /></a>
+			<h1><strong>Fernando Raviola</strong><br /></h1>
+			<h4>#Kotlin #OpenGL #Android #Rust </h4>
+		</div>
+	</header>
+
+	<!-- Main -->
+	<div id="main">
+
+		<!-- One -->
+		<section id="one">
+			<header class="major">
+				<h2><strong>ABOUT </strong>ME<br /></h2>
 			</header>
+			<p>Hi 👋 I'm @feresr! A sofware engineer currently working at Google (Maps📍).</p>
+			<p>I am interested in indie hacking, game development, computer graphics and more! Here you'll find my
+				latest projects and random thoughts on software.<br>You can reach me on <a
+					href="https://twitter.com/fernandoraviola">Twitter</a> or by email: <a
+					href="mailto:fernandoraviola@gmail.com">fernandoraviola@gmail.com</a>.</p>
+			<p>Find my resume <a href="https://resume.io/r/sTxfbBA27">here</a>.</p>
+		</section>
 
-		<!-- Main -->
-			<div id="main">
-
-				<!-- One -->
-					<section id="one">
-						<header class="major">
-							<h2><strong>ABOUT </strong>ME<br/></h2>
-						</header>
-						<p>Hi 👋 I'm @feresr! A sofware engineer currently working at Google (Maps📍).</p>
-							<p>I am interested in indie hacking, game development, computer graphics and more! Here you'll find my latest projects and random thoughts on software.<br>You can reach me on <a href="https://twitter.com/fernandoraviola">Twitter</a> or by email: <a href="mailto:fernandoraviola@gmail.com">fernandoraviola@gmail.com</a>.</p>
-						<p>Find my resume <a href="https://resume.io/r/sTxfbBA27">here</a>.</p>
-					</section>
-
-				<!-- Two -->
-					<section id="two">
-						<div class="row">
-							<article class="col-12 col-12-xsmall work-item">
-								<h2>Game engine (#rust WIP)</h2>
-								<p>
-									I'm currently working on a game 2D/3D engine in rust and SDL::GPU. 
-									<img src="https://i.imgur.com/YoJZAC6.png" style="margin-top: 32px; margin-bottom: 32px; max-width: 100%; height: auto; display: block;" height="auto">
-								</p>
-							</br>
-								<span class="image fit">
-									<img src="images/overload.jpg">
-								</span>
-							</article>
-							<article class="col-12 col-12-xsmall work-item">
-								<h2>Overload - gym tracker </h2>
-								<p>
-Overload is a minimalistic gym tracker for Android and iOS. Made using Kotlin multiplatform. Live in the App Store and Play Store.
-									<a href="https://apps.apple.com/au/app/overload-gym-tracker/id6740665510" style="color: #1a202c; text-decoration: underline;">
-										<img src="https://i.imgur.com/VuENw8Y.png" style="margin-top: 32px; margin-bottom: 32px; max-width: 100%; height: auto; display: block;" height="auto">
-									</a>
-								</p>
-							</br>
-								<span class="image fit">
-									<img src="images/overload.jpg">
-								</span>
-							</article>
-							<article class="col-12 col-12-xsmall work-item">
-								<h2>Building a Snake game with Blender and ThreeJs</h2>
-								<p>
-									I got interested in 3D, I'm learning blender and I thought this would be a fun project. I've modeled and programmed  I'm not great with React or Typescript but managed to put a nice demo together.
-									<a href="https://feresr.github.io/1100/">Try it out!</a>
-								</p>
-
-							</br>
-								<span class="image fit">
-									<img src="images/fulls/snake.png">
-								</span>
-							</article>
-							<article class="col-12 col-12-xsmall work-item">
-								<h2>(REDSHIFT) - Building photo editor for Android</h2>
-								<p>
-									05/01/2022 - I'm currently working on a new pet project on my spare time, a photo editor for Android using Jetpack Compose and Kotlin Coroutines. It is still in its early stages but if you want to get access to it and provide feedback reach out to me on twitter (DM). 
-									<br><a href="https://play.google.com/store/apps/details?id=com.feresr.editor&ah=qwZAe77wfIZI-gKKiKO7BPKklok">Play store (Early access)</a> - More info <a href=https://twitter.com/fernandoraviola/status/1478351024918257666?s=20>here</a>
-								</p>
-							</br>
-								<span class="image fit">
-									<img src="images/fulls/rdshift.png">
-								</span>
-							</article>
-							<article class="col-12 col-12-xsmall work-item">
-								<h2>Building a Raytracer in Kotlin</h2>
-							
-								<p>Trying to make the most of the Christmas break, I started reading 
-									<a href="https://twitter.com/Peter_shirley">@Peter_shirley</a>'s book on Ray tracing:
-									<a href="https://raytracing.github.io/books/RayTracingInOneWeekend.html">"Ray Tracing in one weekend"</a>.
-									I had a rough understanding of how raytracers work, but this book gave a more intuitive grasp on the subject. 
-								</p>
-								<br>
-								<span class="image fit">
-									<img src="images/fulls/raytracer.png">
-								</span>
-								<p>I was plasently surprised to learn that images like the one above can be generated without using any graphics library. I am using OpenGL but just to render a texture, I could have instead outputted a image file and then open it with an image viewer (this is in fact what the author does in this book).
-								The srouce code for the project <a href="https://github.com/feresr/raytracing">is available on Github</a> and I've documented some of<a href="https://twitter.com/fernandoraviola/status/1210211800492453889?s=20"> my takeaways on Twitter</a>.
-								</p>
-								
-							</article>
-							
-							<article class="col-12 col-12-xsmall work-item">
-								<h2>Writing Super Mario Bros in C++</h2>
-								<p>	
-									I decided to learn C++ as step towards understanding more about the fundamentals of computer science, programming languages and graphics programming in general.
-									Read more about the development process <a href="https://medium.com/@FerRaviola/writing-super-mario-bros-in-c-e59dfc5743af">here</a>.</a>
-								</p>
-								<br>
-								<span class="image fit"><img src="https://miro.medium.com/max/1400/1*ULzJyCsPDdx1V8JMuSujpg.png"/></span>
-								<p>	
-									Find a video demo + the source code for this project on <a href="https://github.com/feresr/super-mario-bros">Github</a>.</a>
-								</p>
-								<p>Give it a try online (WebAssembly build made possible thanks to <a href="https://github.com/parwen68/">Paarwen68</a>) <a href="./smb/smb-.html">here</a></p>
-							
-							</article>
+		<!-- Two -->
+		<section id="two">
+			<div class="row">
 				<article class="col-12 col-12-xsmall work-item">
-								<h2>Walpy (Indie wallpaper application)</h2>
-								<p>
-									I believe this is the project I am most proud of to date.
-									Walpy is a Wallpaper changer application I made on my free time, it has over +1.000.000 downloads on the playstore, 40k daily active users and a 4.7/5.0 user rating average from more than +12k users.
-									<a href="https://play.google.com/store/apps/details?id=com.feresr.walpy&hl=en_US">Download here</a>
-									<br><br>I keep iterating over this app to learn new frameworks, the current version was re-written using Kotlin coroutines, OpenGL ES, Sqldelight, and Kotlin-multiplatform features.
-								</p>
-								<br>
-								<span class="image fit">
-									<img src="images/fulls/walpy.png">
-								</span>
-								<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Let&#39;s talk about hype-driven development... I just released a new version of <a href="https://twitter.com/WalpyApp?ref_src=twsrc%5Etfw">@WalpyApp</a>, a complete rewrite, using Androidx, <a href="https://twitter.com/hashtag/kotlin?src=hash&amp;ref_src=twsrc%5Etfw">#kotlin</a> coroutines, Ktor, <a href="https://twitter.com/hashtag/SqlDelight?src=hash&amp;ref_src=twsrc%5Etfw">#SqlDelight</a> and is a Kotlin multiplatform project... now I just need to learn some iOS🍎 <a href="https://twitter.com/hashtag/AndroidDev?src=hash&amp;ref_src=twsrc%5Etfw">#AndroidDev</a> <a href="https://twitter.com/hashtag/iOSDev?src=hash&amp;ref_src=twsrc%5Etfw">#iOSDev</a> <a href="https://t.co/kmFz4busTc">https://t.co/kmFz4busTc</a></p>&mdash; Fernando Raviola 🧉 (@fernandoraviola) <a href="https://twitter.com/fernandoraviola/status/1158035776808128514?ref_src=twsrc%5Etfw">August 4, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>	
-							</article>
-							<article class="col-12 col-12-xsmall work-item">
-								<h2>Three.js and React</h2>
-							
-								<p>
-									After learning about WebGL for the past few months I decided to make my life easier and started using <a href="https://threejs.org/">Three.js</a>.
-									I took this <a href=https://threejs-journey.com/>Three.js course</a> by Bruno Simon and I absolutely loved every bit of it. 
-									Then I took it a step further and started to play around with React-three-fiber. It's amazing how fast you can prototype using web tools, at least compared to how things are done in Android. I made a demo app that allows to display your mobile application in 3D by replacing the texture on the phone screen with your own, as always <a href="https://feresr.github.io/csb-jy3uc/">code is here</a><br>
-								</p>
-							</br>
-							<img src="images/hello.png" width="100%" height="270px" object-fit="fill" style="object-fit:cover">
-							</article>
-							<article class="col-12 col-12-xsmall work-item">
-								<h2>Learning WebGL</h2>
-							
-								<p>
-									I haven't posted anything in a while but recently I've been playing around with WebGL and made the slimy animation that you see on the left of this website (Desktop version only). And it's interactive! Drag your mouse around it to see what I mean.
-									I built this in shadertoy first. The code is available <a href="https://www.shadertoy.com/view/tdyyWV">here.</a></br>
-								</p>
-								
-							</article>
-							<article class="col-12 col-12-xsmall work-item">
-								<h2>Building a multi-purpose 16-bit computer</h2>
-								
-								<p>My curiosity to understand how programming really works and what a computer is actually doing led me into a rabbit hole. It was time to understand how a CPU operates, how does it interact with the RAM, the peripherals, the operating system and utimately how I, as a programmer, can interact with the OS to access the hardware (CPU, IO, ect).</p>
-								<br>
-								<span class="image fit">
-									<img src="images/fulls/computer.jpeg">
-								</span>
-								<p>I found and excelent course on Coursera called <a href="https://www.coursera.org/learn/nand2tetris2/">Build a Modern Computer from First Principles: Nand to Tetris</a>.<br><br>The instructor guides you in building a fully functional multi porpuse 16-bit computer starting from logical NAND gates. This virtual computer incldues a virtual machine and a compiler for a simple, Java-like programming language, and a basic operating system that closes gaps between the high-level language and the underlying hardware platform.</p>
-								<p>You can find my code for this project in github <a href="https://github.com/feresr/komputer">here</a>.</p><br>
-								<blockquote class="twitter-tweet"><p lang="en" dir="ltr">The assembler is ready, and after fixing a subtle bug in the CPU implementation my 16-bit computer is finally running 🎉🖥️, this has been a great learning experience! next steps include implementing a Compiler and OS<br> <a href="https://twitter.com/hashtag/kotlin?src=hash&amp;ref_src=twsrc%5Etfw">#kotlin</a> <a href="https://twitter.com/hashtag/cpu?src=hash&amp;ref_src=twsrc%5Etfw">#cpu</a> <a href="https://twitter.com/hashtag/assembler?src=hash&amp;ref_src=twsrc%5Etfw">#assembler</a> <a href="https://twitter.com/hashtag/compiler?src=hash&amp;ref_src=twsrc%5Etfw">#compiler</a> <a href="https://twitter.com/hashtag/os?src=hash&amp;ref_src=twsrc%5Etfw">#os</a><a href="https://t.co/f4RuX9B2Ll">https://t.co/f4RuX9B2Ll</a> <a href="https://t.co/IPLIvm41Po">pic.twitter.com/IPLIvm41Po</a></p>&mdash; Fernando Raviola 🧉 (@fernandoraviola) <a href="https://twitter.com/fernandoraviola/status/1072912843744440320?ref_src=twsrc%5Etfw">December 12, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-							</article>
-							
+					<h2>Game engine (#rust WIP)</h2>
+					<p>
+						I'm currently working on a game 2D/3D engine in rust and SDL::GPU.
+						<img src="https://i.imgur.com/YoJZAC6.png"
+							style="margin-top: 32px; margin-bottom: 32px; max-width: 100%; height: auto; display: block;"
+							height="auto">
+					</p>
+				</article>
+				<article class="col-12 col-12-xsmall work-item">
+					<h2>Overload - gym tracker </h2>
+					<p>
+						Overload is a minimalistic gym tracker for Android and iOS. Made using Kotlin multiplatform.
+						Live in the App Store and Play Store.
+						<a href="https://apps.apple.com/au/app/overload-gym-tracker/id6740665510"
+							style="color: #1a202c; text-decoration: underline;">
+							<img src="https://i.imgur.com/VuENw8Y.png"
+								style="margin-top: 32px; margin-bottom: 32px; max-width: 100%; height: auto; display: block;"
+								height="auto">
+						</a>
+					</p>
+					</br>
+					<span class="image fit">
+						<img src="images/overload.jpg">
+					</span>
+				</article>
+				<article class="col-12 col-12-xsmall work-item">
+					<h2>Building a Snake game with Blender and ThreeJs</h2>
+					<p>
+						I got interested in 3D, I'm learning blender and I thought this would be a fun project. I've
+						modeled and programmed I'm not great with React or Typescript but managed to put a nice demo
+						together.
+						<a href="https://feresr.github.io/1100/">Try it out!</a>
+					</p>
 
-							<article class="col-12 col-12-xsmall work-item">
-								<h2>Learning 3D graphics with OpenGL</h2>
-							
-								<p>For the long	est time I thought I wanted to make video games, but every time I set out to build one I would almost immediatelly get bored. 
-									This happened multiple times. I would spend hours researching the best game engine, downloading it, playing around with it, starting a new project only to abandon it a few weeks later.
-									I thought by making a game, I would understand how they work under the hood.</p>
+					</br>
+					<span class="image fit">
+						<img src="images/fulls/snake.png">
+					</span>
+				</article>
+				<article class="col-12 col-12-xsmall work-item">
+					<h2>(REDSHIFT) - Building photo editor for Android</h2>
+					<p>
+						05/01/2022 - I'm currently working on a new pet project on my spare time, a photo editor for
+						Android using Jetpack Compose and Kotlin Coroutines. It is still in its early stages but if you
+						want to get access to it and provide feedback reach out to me on twitter (DM).
+						<br><a
+							href="https://play.google.com/store/apps/details?id=com.feresr.editor&ah=qwZAe77wfIZI-gKKiKO7BPKklok">Play
+							store (Early access)</a> - More info <a
+							href=https://twitter.com/fernandoraviola/status/1478351024918257666?s=20>here</a>
+					</p>
+					</br>
+					<span class="image fit">
+						<img src="images/fulls/rdshift.png">
+					</span>
+				</article>
+				<article class="col-12 col-12-xsmall work-item">
+					<h2>Building a Raytracer in Kotlin</h2>
 
-								<p>
-									In practice, that's not true. Game Engines do most of the heavy lifting for you, some go as far as providing a drag and drop interface that will allow you to make your game a reality in record time.
-									That's what game engines are supposed to do! And that doesn’t mean making games using a game engine is easy, there's plenty of challenges (both technical and artistic) that go into making a good game. 
-									Those are just not the challenges I'm most interested in.
-								</p>
-						
-					
-								<br>
-								<span class="image fit">
-									<img src="https://github.com/feresr/renderer/blob/master/readme/sponza.png?raw=true">
-								</span>
-								<p>
-									Graphics are a huge part of games so I decided to learn OpenGL for the sake of understanding how graphics API works and how computers draw things on the screen. It's been a rewarding experience so far! This is what I have to show for. a very rudimentary Phong-blinn renderer that suppors model loading via the Assimp library.
-									As always <a href="https://github.com/feresr/renderer">the code is available on Github</a>.
-								</p>								
-							</article>
+					<p>Trying to make the most of the Christmas break, I started reading
+						<a href="https://twitter.com/Peter_shirley">@Peter_shirley</a>'s book on Ray tracing:
+						<a href="https://raytracing.github.io/books/RayTracingInOneWeekend.html">"Ray Tracing in one
+							weekend"</a>.
+						I had a rough understanding of how raytracers work, but this book gave a more intuitive grasp on
+						the subject.
+					</p>
+					<br>
+					<span class="image fit">
+						<img src="images/fulls/raytracer.png">
+					</span>
+					<p>I was plasently surprised to learn that images like the one above can be generated without using
+						any graphics library. I am using OpenGL but just to render a texture, I could have instead
+						outputted a image file and then open it with an image viewer (this is in fact what the author
+						does in this book).
+						The srouce code for the project <a href="https://github.com/feresr/raytracing">is available on
+							Github</a> and I've documented some of<a
+							href="https://twitter.com/fernandoraviola/status/1210211800492453889?s=20"> my takeaways on
+							Twitter</a>.
+					</p>
 
-							<article class="col-6 col-12-xsmall work-item">
-								<h2>Neuralnetworks and deeplearning</h3>
-								<p>I can't recomend this book enough, it's a great introduction to neural networks.</p>
-								
-								<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Just finished reading the book <a href="https://t.co/Y2jDggB4ry">https://t.co/Y2jDggB4ry</a> by <a href="https://twitter.com/michael_nielsen?ref_src=twsrc%5Etfw">@michael_nielsen</a> and this kind of sentence is one of the reasons I liked it so much:<br><br>&quot;..we&#39;ll develop an intuitive picture of what the backpropagation equations mean, and how someone might discover them from scratch.&quot; <a href="https://t.co/6N8I4gR2NE">pic.twitter.com/6N8I4gR2NE</a></p>&mdash; Fernando Raviola 🧉 (@fernandoraviola) <a href="https://twitter.com/fernandoraviola/status/1024790727941742592?ref_src=twsrc%5Etfw">August 1, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-								
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<h2>Asteroids</h3>
-								<p>I remade this classic game in #Kotlin using a very simple OpenGL wrapper to draw pixelated artwork. I'm not using sprites at all! all the asteroids are generated procedurally and drawn as wireframes. Find the <a href="https://github.com/feresr/asteroids">code here</a>.</p>
-								
-								<blockquote class="twitter-tweet" data-conversation="none"><p lang="en" dir="ltr">much better now 😀 <a href="https://t.co/TzV9J2Rx4n">pic.twitter.com/TzV9J2Rx4n</a></p>&mdash; Fernando Raviola 🧉 (@fernandoraviola) <a href="https://twitter.com/fernandoraviola/status/1163515847840817152?ref_src=twsrc%5Etfw">August 19, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-								
-							</article>
-							
-							<article class="col-6 col-12-xsmall work-item">
-								<h2>Toy first person shooter</h3>
-								<blockquote class="twitter-tweet"><p lang="en" dir="ltr">A few days ago I discovered <a href="https://twitter.com/javidx9?ref_src=twsrc%5Etfw">@javidx9</a>&#39;s channel on youtube, can&#39;t recommend it enough, so many good videos!<br>I&#39;ve just implemented the console FPS in <a href="https://twitter.com/hashtag/kotlin?src=hash&amp;ref_src=twsrc%5Etfw">#kotlin</a>. Only not in a console, I used libGdX and OpenGL instead<a href="https://t.co/nu3AnDPaeN">https://t.co/nu3AnDPaeN</a><br><br>Github: <a href="https://t.co/OQTRUleHfq">https://t.co/OQTRUleHfq</a> <a href="https://t.co/9maBFWvtKv">pic.twitter.com/9maBFWvtKv</a></p>&mdash; Fernando Raviola 🧉 (@fernandoraviola) <a href="https://twitter.com/fernandoraviola/status/1162963754243559424?ref_src=twsrc%5Etfw">August 18, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<h2>My notes on learning Kotlin Coroutines [Medium]</h3>
-								<p>I want to shed some light into the difficulties I had learning Kotlin Coroutines while working on my personal apps. I’m writing this first article as a quick go-to reference for myself and anyone else that might find getting started with coroutines a bit unintuitive. Disclaimer: I am learning this as I go so if you notice something wrong with this article please do let me know in the comments. <br><br> Let’s say we want to perform an asynchronous operation using Coroutines. To make things even simpler, we’ll assume this operation doesn’t even return anything back to us. This is simple enough using coroutines... <br><br>[Keep reding on <a href="https://medium.com/@FerRaviola/coroutines-gotchas-494a0e425a24">medium</a>]</p>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<h2>Nanodegree on Deep Learning</h2>
-								<p>I did not like the Udacity experience that much. Shared some comments on twitter about it.</p>
-								<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I graduated from Udacity&#39;s Deep Learning Nanodegree! But I can&#39;t but feel a bit disappointed with the course material. It wasn&#39;t a very pleasant learning experience and I didn&#39;t feel that sense of thrill/accomplishment after solving the projects... <a href="https://t.co/VvK4QQI0Gq">pic.twitter.com/VvK4QQI0Gq</a></p>&mdash; Fernando Raviola 🧉 (@fernandoraviola) <a href="https://twitter.com/fernandoraviola/status/1046719934976294913?ref_src=twsrc%5Etfw">October 1, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-								
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<h2>A smart dino</h2>
-								<p>You can find the <a href="https://github.com/feresr/imdino">code here</a>. Disclamer, I am not an expert in neural networks and the implamentation might not be 100% correct, but hey! I had fun building this anyways.</p>
-								<blockquote class="twitter-tweet"><p lang="en" dir="ltr">I&#39;ve implemented a genetic algorithm <a href="https://twitter.com/hashtag/NeuralNetwork?src=hash&amp;ref_src=twsrc%5Etfw">#NeuralNetwork</a> on <a href="https://twitter.com/googlechrome?ref_src=twsrc%5Etfw">@googlechrome</a> dinosaur game that learns how to play by itself on <a href="https://twitter.com/hashtag/AndroidDev?src=hash&amp;ref_src=twsrc%5Etfw">#AndroidDev</a> 🦕 <a href="https://t.co/xdfjxi5R5d">pic.twitter.com/xdfjxi5R5d</a></p>&mdash; Fernando Raviola 🧉 (@fernandoraviola) <a href="https://twitter.com/fernandoraviola/status/868255933423648768?ref_src=twsrc%5Etfw">May 27, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-							</article>
-							<article class="col-6 col-12-xsmall work-item">
-								<h2>Tiny Architect</h2>
-								<p>I build this game with the goal of understanding how physics engines worked. I had a lot fun learning how tiled based collision detection works. The game was built using ActionScript 3.0 and Adobe Air (Adobe runtime for mobile phones). I believe this is not supported anymore, I can't get the game to run on a modern device but you can give it a try, it's <a href="https://play.google.com/store/apps/details?id=air.com.feresr.TinyArchitect">available on the playstore.</a></p>
-								<br>
-								<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Just published my first Android game ever! An action platformer with a twist <a href="https://twitter.com/hashtag/IndieGame?src=hash&amp;ref_src=twsrc%5Etfw">#IndieGame</a> <a href="https://t.co/GlwjLoXvOW">https://t.co/GlwjLoXvOW</a> <a href="https://t.co/08JrXV5PK0">pic.twitter.com/08JrXV5PK0</a></p>&mdash; Fernando Raviola 🧉 (@fernandoraviola) <a href="https://twitter.com/fernandoraviola/status/734737216266633216?ref_src=twsrc%5Etfw">May 23, 2016</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-							</article>							
-						</div>
-						<ul class="actions">
-							<li><a href="https://github.com/feresr" class="button">Full Portfolio</a></li>
-						</ul>
-					</section>
+				</article>
 
-				<!-- Three -->
-					<section id="three">
-						
-					</section>
+				<article class="col-12 col-12-xsmall work-item">
+					<h2>Writing Super Mario Bros in C++</h2>
+					<p>
+						I decided to learn C++ as step towards understanding more about the fundamentals of computer
+						science, programming languages and graphics programming in general.
+						Read more about the development process <a
+							href="https://medium.com/@FerRaviola/writing-super-mario-bros-in-c-e59dfc5743af">here</a>.</a>
+					</p>
+					<br>
+					<span class="image fit"><img
+							src="https://miro.medium.com/max/1400/1*ULzJyCsPDdx1V8JMuSujpg.png" /></span>
+					<p>
+						Find a video demo + the source code for this project on <a
+							href="https://github.com/feresr/super-mario-bros">Github</a>.</a>
+					</p>
+					<p>Give it a try online (WebAssembly build made possible thanks to <a
+							href="https://github.com/parwen68/">Paarwen68</a>) <a href="./smb/smb-.html">here</a></p>
 
+				</article>
+				<article class="col-12 col-12-xsmall work-item">
+					<h2>Walpy (Indie wallpaper application)</h2>
+					<p>
+						I believe this is the project I am most proud of to date.
+						Walpy is a Wallpaper changer application I made on my free time, it has over +1.000.000
+						downloads on the playstore, 40k daily active users and a 4.7/5.0 user rating average from more
+						than +12k users.
+						<a href="https://play.google.com/store/apps/details?id=com.feresr.walpy&hl=en_US">Download
+							here</a>
+						<br><br>I keep iterating over this app to learn new frameworks, the current version was
+						re-written using Kotlin coroutines, OpenGL ES, Sqldelight, and Kotlin-multiplatform features.
+					</p>
+					<br>
+					<span class="image fit">
+						<img src="images/fulls/walpy.png">
+					</span>
+					<blockquote class="twitter-tweet">
+						<p lang="en" dir="ltr">Let&#39;s talk about hype-driven development... I just released a new
+							version of <a href="https://twitter.com/WalpyApp?ref_src=twsrc%5Etfw">@WalpyApp</a>, a
+							complete rewrite, using Androidx, <a
+								href="https://twitter.com/hashtag/kotlin?src=hash&amp;ref_src=twsrc%5Etfw">#kotlin</a>
+							coroutines, Ktor, <a
+								href="https://twitter.com/hashtag/SqlDelight?src=hash&amp;ref_src=twsrc%5Etfw">#SqlDelight</a>
+							and is a Kotlin multiplatform project... now I just need to learn some iOS🍎 <a
+								href="https://twitter.com/hashtag/AndroidDev?src=hash&amp;ref_src=twsrc%5Etfw">#AndroidDev</a>
+							<a href="https://twitter.com/hashtag/iOSDev?src=hash&amp;ref_src=twsrc%5Etfw">#iOSDev</a> <a
+								href="https://t.co/kmFz4busTc">https://t.co/kmFz4busTc</a>
+						</p>&mdash; Fernando Raviola
+						🧉 (@fernandoraviola) <a
+							href="https://twitter.com/fernandoraviola/status/1158035776808128514?ref_src=twsrc%5Etfw">August
+							4, 2019</a>
+					</blockquote>
+					<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+				</article>
+				<article class="col-12 col-12-xsmall work-item">
+					<h2>Three.js and React</h2>
+
+					<p>
+						After learning about WebGL for the past few months I decided to make my life easier and started
+						using <a href="https://threejs.org/">Three.js</a>.
+						I took this <a href=https://threejs-journey.com />Three.js course</a> by Bruno Simon and I
+						absolutely loved every bit of it.
+						Then I took it a step further and started to play around with React-three-fiber. It's amazing
+						how fast you can prototype using web tools, at least compared to how things are done in Android.
+						I made a demo app that allows to display your mobile application in 3D by replacing the texture
+						on the phone screen with your own, as always <a href="https://feresr.github.io/csb-jy3uc/">code
+							is here</a><br>
+					</p>
+					</br>
+					<img src="images/hello.png" width="100%" height="270px" object-fit="fill" style="object-fit:cover">
+				</article>
+				<article class="col-12 col-12-xsmall work-item">
+					<h2>Learning WebGL</h2>
+
+					<p>
+						I haven't posted anything in a while but recently I've been playing around with WebGL and made
+						the slimy animation that you see on the left of this website (Desktop version only). And it's
+						interactive! Drag your mouse around it to see what I mean.
+						I built this in shadertoy first. The code is available <a
+							href="https://www.shadertoy.com/view/tdyyWV">here.</a></br>
+					</p>
+
+				</article>
+				<article class="col-12 col-12-xsmall work-item">
+					<h2>Building a multi-purpose 16-bit computer</h2>
+
+					<p>My curiosity to understand how programming really works and what a computer is actually doing led
+						me into a rabbit hole. It was time to understand how a CPU operates, how does it interact with
+						the RAM, the peripherals, the operating system and utimately how I, as a programmer, can
+						interact with the OS to access the hardware (CPU, IO, ect).</p>
+					<br>
+					<span class="image fit">
+						<img src="images/fulls/computer.jpeg">
+					</span>
+					<p>I found and excelent course on Coursera called <a
+							href="https://www.coursera.org/learn/nand2tetris2/">Build a Modern Computer from First
+							Principles: Nand to Tetris</a>.<br><br>The instructor guides you in building a fully
+						functional multi porpuse 16-bit computer starting from logical NAND gates. This virtual computer
+						incldues a virtual machine and a compiler for a simple, Java-like programming language, and a
+						basic operating system that closes gaps between the high-level language and the underlying
+						hardware platform.</p>
+					<p>You can find my code for this project in github <a
+							href="https://github.com/feresr/komputer">here</a>.</p><br>
+					<blockquote class="twitter-tweet">
+						<p lang="en" dir="ltr">The assembler is ready, and after fixing a subtle bug in the CPU
+							implementation my 16-bit computer is finally running 🎉🖥️, this has been a great learning
+							experience! next steps include implementing a Compiler and OS<br> <a
+								href="https://twitter.com/hashtag/kotlin?src=hash&amp;ref_src=twsrc%5Etfw">#kotlin</a>
+							<a href="https://twitter.com/hashtag/cpu?src=hash&amp;ref_src=twsrc%5Etfw">#cpu</a> <a
+								href="https://twitter.com/hashtag/assembler?src=hash&amp;ref_src=twsrc%5Etfw">#assembler</a>
+							<a
+								href="https://twitter.com/hashtag/compiler?src=hash&amp;ref_src=twsrc%5Etfw">#compiler</a>
+							<a href="https://twitter.com/hashtag/os?src=hash&amp;ref_src=twsrc%5Etfw">#os</a><a
+								href="https://t.co/f4RuX9B2Ll">https://t.co/f4RuX9B2Ll</a> <a
+								href="https://t.co/IPLIvm41Po">pic.twitter.com/IPLIvm41Po</a>
+						</p>&mdash; Fernando
+						Raviola 🧉 (@fernandoraviola) <a
+							href="https://twitter.com/fernandoraviola/status/1072912843744440320?ref_src=twsrc%5Etfw">December
+							12, 2018</a>
+					</blockquote>
+					<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+				</article>
+
+
+				<article class="col-12 col-12-xsmall work-item">
+					<h2>Learning 3D graphics with OpenGL</h2>
+
+					<p>For the long est time I thought I wanted to make video games, but every time I set out to build
+						one I would almost immediatelly get bored.
+						This happened multiple times. I would spend hours researching the best game engine, downloading
+						it, playing around with it, starting a new project only to abandon it a few weeks later.
+						I thought by making a game, I would understand how they work under the hood.</p>
+
+					<p>
+						In practice, that's not true. Game Engines do most of the heavy lifting for you, some go as far
+						as providing a drag and drop interface that will allow you to make your game a reality in record
+						time.
+						That's what game engines are supposed to do! And that doesn’t mean making games using a game
+						engine is easy, there's plenty of challenges (both technical and artistic) that go into making a
+						good game.
+						Those are just not the challenges I'm most interested in.
+					</p>
+
+
+					<br>
+					<span class="image fit">
+						<img src="https://github.com/feresr/renderer/blob/master/readme/sponza.png?raw=true">
+					</span>
+					<p>
+						Graphics are a huge part of games so I decided to learn OpenGL for the sake of understanding how
+						graphics API works and how computers draw things on the screen. It's been a rewarding experience
+						so far! This is what I have to show for. a very rudimentary Phong-blinn renderer that suppors
+						model loading via the Assimp library.
+						As always <a href="https://github.com/feresr/renderer">the code is available on Github</a>.
+					</p>
+				</article>
+
+				<article class="col-6 col-12-xsmall work-item">
+					<h2>Neuralnetworks and deeplearning</h3>
+						<p>I can't recomend this book enough, it's a great introduction to neural networks.</p>
+
+						<blockquote class="twitter-tweet">
+							<p lang="en" dir="ltr">Just finished reading the book <a
+									href="https://t.co/Y2jDggB4ry">https://t.co/Y2jDggB4ry</a> by <a
+									href="https://twitter.com/michael_nielsen?ref_src=twsrc%5Etfw">@michael_nielsen</a>
+								and this kind of sentence is one of the reasons I liked it so
+								much:<br><br>&quot;..we&#39;ll develop an intuitive picture of what the backpropagation
+								equations mean, and how someone might discover them from scratch.&quot; <a
+									href="https://t.co/6N8I4gR2NE">pic.twitter.com/6N8I4gR2NE</a></p>&mdash; Fernando
+							Raviola 🧉 (@fernandoraviola) <a
+								href="https://twitter.com/fernandoraviola/status/1024790727941742592?ref_src=twsrc%5Etfw">August
+								1, 2018</a>
+						</blockquote>
+						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+				</article>
+				<article class="col-6 col-12-xsmall work-item">
+					<h2>Asteroids</h3>
+						<p>I remade this classic game in #Kotlin using a very simple OpenGL wrapper to draw pixelated
+							artwork. I'm not using sprites at all! all the asteroids are generated procedurally and
+							drawn as wireframes. Find the <a href="https://github.com/feresr/asteroids">code here</a>.
+						</p>
+
+						<blockquote class="twitter-tweet" data-conversation="none">
+							<p lang="en" dir="ltr">much better now 😀 <a
+									href="https://t.co/TzV9J2Rx4n">pic.twitter.com/TzV9J2Rx4n</a></p>&mdash; Fernando
+							Raviola 🧉 (@fernandoraviola) <a
+								href="https://twitter.com/fernandoraviola/status/1163515847840817152?ref_src=twsrc%5Etfw">August
+								19, 2019</a>
+						</blockquote>
+						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+				</article>
+
+				<article class="col-6 col-12-xsmall work-item">
+					<h2>Toy first person shooter</h3>
+						<blockquote class="twitter-tweet">
+							<p lang="en" dir="ltr">A few days ago I discovered <a
+									href="https://twitter.com/javidx9?ref_src=twsrc%5Etfw">@javidx9</a>&#39;s channel on
+								youtube, can&#39;t recommend it enough, so many good videos!<br>I&#39;ve just
+								implemented the console FPS in <a
+									href="https://twitter.com/hashtag/kotlin?src=hash&amp;ref_src=twsrc%5Etfw">#kotlin</a>.
+								Only not in a console, I used libGdX and OpenGL instead<a
+									href="https://t.co/nu3AnDPaeN">https://t.co/nu3AnDPaeN</a><br><br>Github: <a
+									href="https://t.co/OQTRUleHfq">https://t.co/OQTRUleHfq</a> <a
+									href="https://t.co/9maBFWvtKv">pic.twitter.com/9maBFWvtKv</a></p>&mdash; Fernando
+							Raviola 🧉 (@fernandoraviola) <a
+								href="https://twitter.com/fernandoraviola/status/1162963754243559424?ref_src=twsrc%5Etfw">August
+								18, 2019</a>
+						</blockquote>
+						<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+				</article>
+				<article class="col-6 col-12-xsmall work-item">
+					<h2>My notes on learning Kotlin Coroutines [Medium]</h3>
+						<p>I want to shed some light into the difficulties I had learning Kotlin Coroutines while
+							working on my personal apps. I’m writing this first article as a quick go-to reference for
+							myself and anyone else that might find getting started with coroutines a bit unintuitive.
+							Disclaimer: I am learning this as I go so if you notice something wrong with this article
+							please do let me know in the comments. <br><br> Let’s say we want to perform an asynchronous
+							operation using Coroutines. To make things even simpler, we’ll assume this operation doesn’t
+							even return anything back to us. This is simple enough using coroutines... <br><br>[Keep
+							reding on <a
+								href="https://medium.com/@FerRaviola/coroutines-gotchas-494a0e425a24">medium</a>]</p>
+				</article>
+				<article class="col-6 col-12-xsmall work-item">
+					<h2>Nanodegree on Deep Learning</h2>
+					<p>I did not like the Udacity experience that much. Shared some comments on twitter about it.</p>
+					<blockquote class="twitter-tweet">
+						<p lang="en" dir="ltr">I graduated from Udacity&#39;s Deep Learning Nanodegree! But I can&#39;t
+							but feel a bit disappointed with the course material. It wasn&#39;t a very pleasant learning
+							experience and I didn&#39;t feel that sense of thrill/accomplishment after solving the
+							projects... <a href="https://t.co/VvK4QQI0Gq">pic.twitter.com/VvK4QQI0Gq</a></p>&mdash;
+						Fernando Raviola 🧉 (@fernandoraviola) <a
+							href="https://twitter.com/fernandoraviola/status/1046719934976294913?ref_src=twsrc%5Etfw">October
+							1, 2018</a>
+					</blockquote>
+					<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+				</article>
+				<article class="col-6 col-12-xsmall work-item">
+					<h2>A smart dino</h2>
+					<p>You can find the <a href="https://github.com/feresr/imdino">code here</a>. Disclamer, I am not an
+						expert in neural networks and the implamentation might not be 100% correct, but hey! I had fun
+						building this anyways.</p>
+					<blockquote class="twitter-tweet">
+						<p lang="en" dir="ltr">I&#39;ve implemented a genetic algorithm <a
+								href="https://twitter.com/hashtag/NeuralNetwork?src=hash&amp;ref_src=twsrc%5Etfw">#NeuralNetwork</a>
+							on <a href="https://twitter.com/googlechrome?ref_src=twsrc%5Etfw">@googlechrome</a> dinosaur
+							game that learns how to play by itself on <a
+								href="https://twitter.com/hashtag/AndroidDev?src=hash&amp;ref_src=twsrc%5Etfw">#AndroidDev</a>
+							🦕 <a href="https://t.co/xdfjxi5R5d">pic.twitter.com/xdfjxi5R5d</a></p>&mdash; Fernando
+						Raviola 🧉 (@fernandoraviola) <a
+							href="https://twitter.com/fernandoraviola/status/868255933423648768?ref_src=twsrc%5Etfw">May
+							27, 2017</a>
+					</blockquote>
+					<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+				</article>
+				<article class="col-6 col-12-xsmall work-item">
+					<h2>Tiny Architect</h2>
+					<p>I build this game with the goal of understanding how physics engines worked. I had a lot fun
+						learning how tiled based collision detection works. The game was built using ActionScript 3.0
+						and Adobe Air (Adobe runtime for mobile phones). I believe this is not supported anymore, I
+						can't get the game to run on a modern device but you can give it a try, it's <a
+							href="https://play.google.com/store/apps/details?id=air.com.feresr.TinyArchitect">available
+							on the playstore.</a></p>
+					<br>
+					<blockquote class="twitter-tweet">
+						<p lang="en" dir="ltr">Just published my first Android game ever! An action platformer with a
+							twist <a
+								href="https://twitter.com/hashtag/IndieGame?src=hash&amp;ref_src=twsrc%5Etfw">#IndieGame</a>
+							<a href="https://t.co/GlwjLoXvOW">https://t.co/GlwjLoXvOW</a> <a
+								href="https://t.co/08JrXV5PK0">pic.twitter.com/08JrXV5PK0</a>
+						</p>&mdash; Fernando
+						Raviola 🧉 (@fernandoraviola) <a
+							href="https://twitter.com/fernandoraviola/status/734737216266633216?ref_src=twsrc%5Etfw">May
+							23, 2016</a>
+					</blockquote>
+					<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+				</article>
 			</div>
+			<ul class="actions">
+				<li><a href="https://github.com/feresr" class="button">Full Portfolio</a></li>
+			</ul>
+		</section>
 
-			<!-- Footer -->
-			<footer id="footer">
-				<div class="inner">
-					<ul class="icons">
-						<li><a href="https://twitter.com/fernandoraviola" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="https://github.com/feresr" class="icon brands fa-github"><span class="label">Github</span></a></li>
-						<li><a href="mailto:fernandoraviola@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-					</ul>
-				
-				</div>
-			</footer>
+		<!-- Three -->
+		<section id="three">
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.poptrox.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+		</section>
 
-	</body>
+	</div>
+
+	<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<ul class="icons">
+				<li><a href="https://twitter.com/fernandoraviola" class="icon brands fa-twitter"><span
+							class="label">Twitter</span></a></li>
+				<li><a href="https://github.com/feresr" class="icon brands fa-github"><span
+							class="label">Github</span></a></li>
+				<li><a href="mailto:fernandoraviola@gmail.com" class="icon solid fa-envelope"><span
+							class="label">Email</span></a></li>
+			</ul>
+
+		</div>
+	</footer>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.poptrox.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
